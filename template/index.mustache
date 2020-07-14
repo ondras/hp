@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Homepage of Ondřej Žára" />
+		<meta name="keywords" content="homepage ondrej zara cv" />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Ondřej Žára &ndash; Homepage</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,latin-ext" rel="stylesheet" />
+	</head>
+
+	<body itemscope itemtype="http://data-vocabulary.org/Person">
+		<div id="games" class="fake"></div>
+		<div id="projects" class="fake"></div>
+		<div id="demos" class="fake"></div>
+		<div id="talks" class="fake"></div>
+		<div id="writings" class="fake"></div>
+		<div id="old" class="fake"></div>
+
+		<header>
+			<h1 itemprop="name"><a href="#">Ondřej Žára</a></h1>
+			<nav>
+				<ul>
+					<li><a href="mailto:ondras@zarovi.cz"><img src="img/email.png" alt="E-mail" title="E-mail" /></a></li>
+					<li><a rel="me" href="https://github.com/ondras/"><img src="img/github.png" alt="GitHub" title="GitHub" /></a></li>
+					<li><a rel=author href="https://profiles.google.com/105346527211268283692"><img src="img/gplus.png" alt="G+" title="G+" /></a></li>
+					<li><a rel="me" href="http://twitter.com/0ndras"><img src="img/twitter.png" alt="Twitter" title="Twitter" /></a></li>
+					<li><a href="https://script.google.com/macros/s/AKfycbzgHaH8I3wAPm1aK267C1RwuCR6f8Ew37Sk2M22aiVbVCt1M2Y/exec?action=timeline&amp;q=0ndras"><img src="img/rss.png" alt="RSS" title="RSS" /></a></li>
+					<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3340079"><img src="img/paypal.gif" alt="PayPal" title="PayPal" /></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="#games">
+					Games
+					<span>Written in JS, playable in browser</span>
+				</a></li>
+				<li><a href="#projects">
+					Projects
+					<span>Larger non-gaming stuff, mostly JS</span>
+				</a></li>
+				<li><a href="#demos">
+					Demos
+					<span>Smaller non-gaming stuff, mostly JS</span>
+				</a></li>
+				<li><a href="#talks">
+					Talks
+					<span>List of recently given presentations</span>
+				</a></li>
+				<li><a href="#writings">
+					Writings
+					<span>Collected blog-less works</span>
+				</a></li>
+				<li><a href="#old">
+					Old projects
+					<span>None of these is guaranteed to work :)</span>
+				</a></li>
+			</ul>
+		</nav>
+
+		<section>
+			<h2>About</h2>
+			<img itemprop="photo" src="img/oz.jpg" alt="portrait" title="portrait" />
+			<p>
+				<span itemprop="role">JavaScript developer</span>, living in <span itemprop="address">Prague, Czech Republic</span>.
+				Currently employed by <a href="http://www.seznam.cz/" itemprop="affiliation">Seznam.cz</a>.
+			</p>
+			<p>
+				Interested in <a href="cv/">my résumé</a>? Try <a href="http://resume.github.com/?ondras">the GitHub version</a> as well.
+			</p>
+		</section>
+
+		<section data-content="games">
+			<h2>Games</h2>
+			{{>games}}
+		</section>
+
+		<section data-content="projects">
+			<h2>Projects</h2>
+			{{>projects}}
+		</section>
+
+		<section data-content="demos">
+			<h2>Demos &amp; Experiments</h2>
+			{{>demos}}
+		</section>
+
+		<section data-content="talks">
+			<h2>Talks</h2>
+			{{>talks}}
+		</section>
+
+		<section data-content="writings">
+			<h2>Writings</h2>
+			{{>talks}}
+		</section>
+
+		<section data-content="old">
+			<h2>Old stuff</h2>
+			{{>old}}
+		</section>
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-383250-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Ondřej Žára",
+  "image": "/img/oz.jpg",
+  "jobTitle": "JavaScript developer",
+  "address": "Prague, Czech Republic",
+  "affiliation": "https://www.seznam.cz/"
+}
+</script>
+
+	</body>
+</html>
