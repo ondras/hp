@@ -1,5 +1,185 @@
 <dl>
   <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;my-mind"> 
+    my-mind
+     </a> 
+  </dt>
+  <dd>
+    Online Mindmapping Software
+     <span class="topic">JavaScript</span>  <span class="topic">Mindmap</span> 
+     <a href="https:&#x2F;&#x2F;my-mind.github.io">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ahk"> 
+    ahk
+     </a> 
+  </dt>
+  <dd>
+    Collection of AutoHotkey scripts that I use.
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;wsl"> 
+    wsl
+     </a> 
+  </dt>
+  <dd>
+    WSL2 utilities
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;arduino"> 
+    arduino
+     </a> 
+  </dt>
+  <dd>
+    Experimental sketches
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;instant-button"> 
+    instant-button
+     </a> 
+  </dt>
+  <dd>
+    &lt;instant-button&gt; web component
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;instant-button&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;fixmetodo"> 
+    fixmetodo
+     </a> 
+  </dt>
+  <dd>
+    &lt;fix-me&gt; and &lt;to-do&gt; web components
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;fixmetodo&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ex-ample"> 
+    ex-ample
+     </a> 
+  </dt>
+  <dd>
+    &lt;ex-ample&gt; Web Component for interactive HTML&#x2F;JS examples
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;ex-ample&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;chords"> 
+    chords
+     </a> 
+  </dt>
+  <dd>
+    
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cfo"> 
+    cfo
+     </a> 
+  </dt>
+  <dd>
+    A two-pane file manager
+     <span class="topic">Electron</span>  <span class="topic">File Manager</span>  <span class="topic">JavaScript</span> 
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;kucharka"> 
+    kucharka
+     </a> 
+  </dt>
+  <dd>
+    Google Code mirror
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;hitman"> 
+    hitman
+     </a> 
+  </dt>
+  <dd>
+    Html Infrastructure for Turing Machine ANalysis
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;hitman&#x2F;demo&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;deno-json-rpc"> 
+    deno-json-rpc
+     </a> 
+  </dt>
+  <dd>
+    
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dobble"> 
+    dobble
+     </a> 
+  </dt>
+  <dd>
+    Dobble &#x2F; Spot it! with Emoji
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;dobble&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;fireworks-webgl"> 
+    fireworks-webgl
+     </a> 
+  </dt>
+  <dd>
+    WebGL + Web Audio API &#x3D; Sound-driven fireworks!
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;fireworks-webgl">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;primitive.js"> 
+    primitive.js
+     </a> 
+  </dt>
+  <dd>
+    JS port of primitive.lol
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;primitive.js&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rot.js"> 
+    rot.js
+     </a> 
+  </dt>
+  <dd>
+    ROguelike Toolkit in JavaScript
+     <span class="topic">JavaScript</span>  <span class="topic">Library</span>  <span class="topic">Roguelike</span> 
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;rot.js&#x2F;hp&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;wwwsqldesigner"> 
+    wwwsqldesigner
+     </a> 
+  </dt>
+  <dd>
+    WWW SQL Designer, your online SQL diagramming tool
+     <span class="topic">JavaScript</span>  <span class="topic">PHP</span>  <span class="topic">Sql Designer</span>  <span class="topic">Sql Script</span> 
+     <a href="http:&#x2F;&#x2F;ondras.zarovi.cz&#x2F;sql&#x2F;demo&#x2F;?keyword&#x3D;default">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cyp"> 
+    cyp
+     </a> 
+  </dt>
+  <dd>
+    Control Your Player: a Web-based MPD client
+    
+    
+  </dd>
+  <dt>
      <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cookie-roller"> 
     cookie-roller
      </a> 
@@ -18,46 +198,6 @@
     Create SVG images&#x2F;favicons from emoji
     
      <a href="https:&#x2F;&#x2F;emojimage.toad.cz&#x2F;">Try it</a> 
-  </dd>
-  <dt>
-     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;wwwsqldesigner"> 
-    wwwsqldesigner
-     </a> 
-  </dt>
-  <dd>
-    WWW SQL Designer, your online SQL diagramming tool
-     <span class="topic">JavaScript</span>  <span class="topic">PHP</span>  <span class="topic">Sql Designer</span>  <span class="topic">Sql Script</span> 
-     <a href="http:&#x2F;&#x2F;ondras.zarovi.cz&#x2F;sql&#x2F;demo&#x2F;?keyword&#x3D;default">Try it</a> 
-  </dd>
-  <dt>
-     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;my-mind"> 
-    my-mind
-     </a> 
-  </dt>
-  <dd>
-    Online Mindmapping Software
-     <span class="topic">JavaScript</span>  <span class="topic">Mindmap</span> 
-     <a href="https:&#x2F;&#x2F;my-mind.github.io">Try it</a> 
-  </dd>
-  <dt>
-     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rot.js"> 
-    rot.js
-     </a> 
-  </dt>
-  <dd>
-    ROguelike Toolkit in JavaScript
-     <span class="topic">JavaScript</span>  <span class="topic">Library</span>  <span class="topic">Roguelike</span> 
-     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;rot.js&#x2F;hp&#x2F;">Try it</a> 
-  </dd>
-  <dt>
-     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cyp"> 
-    cyp
-     </a> 
-  </dt>
-  <dd>
-    Control Your Player: a Web-based MPD client
-    
-    
   </dd>
   <dt>
      <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dotfiles"> 

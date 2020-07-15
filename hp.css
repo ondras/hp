@@ -1,0 +1,11 @@
+.topic-missing, .topic-missing + dd { opacity: 0.5; }
+
+.topic {
+	border-radius: 8px;
+	padding: 0 4px;
+}
+
+.topic-0 { background-color: pink; }
+.topic-1 { background-color: lime; }
+.topic-2 { background-color: deepskyblue; }
+.topic-3 { background-color: burlywood; }

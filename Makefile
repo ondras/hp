@@ -4,7 +4,8 @@ BUILD := build
 DATA := data
 TEMPLATE := template
 
-DENO := $(BIN)/deno
+# DENO := $(BIN)/deno
+DENO := ~/deno/deno
 REPOS := $(DATA)/repos.json
 REPO_COMPONENTS := games demos projects
 COMPONENTS := $(REPO_COMPONENTS) talks
@@ -13,21 +14,21 @@ PARTIALS := $(COMPONENTS:%=$(BUILD)/%.partial)
 
 # resulting html
 $(BUILD)/index.html: $(TEMPLATE)/index.mustache $(PARTIALS) | $(BUILD)
-	$(DENO) --allow-read $(BIN)/create-index.ts $< > $@
+	$(DENO) run  --allow-read $(BIN)/create-index.ts $< > $@
 
 # partial html
 $(BUILD)/%.partial: $(DATA)/%.json $(TEMPLATE)/%.mustache | $(BUILD)
-	cat $< | $(DENO) --allow-read $(BIN)/create-partial.ts $(TEMPLATE)/$*.mustache > $@
+	cat $< | $(DENO) run --allow-read $(BIN)/create-partial.ts $(TEMPLATE)/$*.mustache > $@
 
 # data sources
 $(DATA)/talks.json:
 	# no-op, handcrafted
 
 $(DATA)/%.json: $(REPOS)
-	cat $< | $(DENO) $(BIN)/split-repos.ts $* > $@
+	cat $< | $(DENO) run $(BIN)/split-repos.ts $* > $@
 
 $(REPOS):
-	env $(shell cat secrets.env | xargs) $(DENO) --allow-net --allow-env $(BIN)/fetch-repos.ts > $@
+	env $(shell cat secrets.env | xargs) $(DENO) run --allow-net --allow-env $(BIN)/fetch-repos.ts > $@
 
 # misc
 $(BUILD):
