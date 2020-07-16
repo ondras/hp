@@ -1,0 +1,92 @@
+<dl>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;TeaJS"> 
+    TeaJS
+     </a> 
+  </dt>
+  <dd>
+    Your daily cup of server-side Javascript.
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;elm-slides"> 
+    elm-slides
+     </a> 
+  </dt>
+  <dd>
+    Slide deck system written in Elm
+     <span class="topic">Elm</span> 
+     <a href="http:&#x2F;&#x2F;ondras.github.io&#x2F;elm-slides&#x2F;out&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;draw"> 
+    draw
+     </a> 
+  </dt>
+  <dd>
+    Drawing in multiplayer (server needed)
+     <span class="topic">Websocket</span> 
+     <a href="http:&#x2F;&#x2F;ondras.github.io&#x2F;draw&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;html5-animation-framework"> 
+    html5-animation-framework
+     </a> 
+  </dt>
+  <dd>
+    Google Code mirror
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;a-g-e"> 
+    a-g-e
+     </a> 
+  </dt>
+  <dd>
+    JS-based engine for displaying simple textual adventure games.
+    
+     <a href="http:&#x2F;&#x2F;ondras.github.io&#x2F;a-g-e&#x2F;testbed.html">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;photo"> 
+    photo
+     </a> 
+  </dt>
+  <dd>
+    Web Workers used to process photos
+    
+     <a href="http:&#x2F;&#x2F;ondras.github.io&#x2F;photo&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;hash"> 
+    hash
+     </a> 
+  </dt>
+  <dd>
+    Mozilla DevDerby Demo
+    
+     <a href="https:&#x2F;&#x2F;developer.mozilla.org&#x2F;cs&#x2F;demos&#x2F;detail&#x2F;hash-bruteforcer">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;syntax"> 
+    syntax
+     </a> 
+  </dt>
+  <dd>
+    RE-based syntax highlighter, implemented in Javascript.
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;zombie"> 
+    zombie
+     </a> 
+  </dt>
+  <dd>
+    A minimalistic Jasmine test driver
+    
+    
+  </dd>
+</dl>

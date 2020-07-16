@@ -31,10 +31,10 @@ async function call(url: string) {
 	return {json, links};
 }
 
-async function repos(username: string, type="all") {
+async function repos(username: string) {
 	let urlObj = new URL(`https://api.github.com/users/${username}/repos`);
-	urlObj.searchParams.set("type", type);
-	urlObj.searchParams.set("sort", "updated");
+	urlObj.searchParams.set("visibility", "public");
+	urlObj.searchParams.set("sort", "pushed");
 
 	let url = urlObj.href;
 	let repos: Repo[] = [];
@@ -46,12 +46,16 @@ async function repos(username: string, type="all") {
 	return repos;
 }
 
-function topicFilter(topic: string) {
-	return (repo: Repo) => repo.topics.includes(topic);
+function shouldInclude(repo: Repo) {
+	if (repo.fork) {
+		return repo.topics.includes("hp-include");
+	} else {
+		return !repo.topics.includes("hp-exclude");
+	}
 }
 
 const all = await repos("ondras");
-const filtered = all.filter(topicFilter("hp"));
+const filtered = all.filter(shouldInclude);
 const str = JSON.stringify(filtered);
 Deno.stdout.writeSync(te.encode(str));
 

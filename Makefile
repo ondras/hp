@@ -4,10 +4,9 @@ BUILD := build
 DATA := data
 TEMPLATE := template
 
-# DENO := $(BIN)/deno
 DENO := ~/deno/deno
 REPOS := $(DATA)/repos.json
-REPO_COMPONENTS := games demos projects
+REPO_COMPONENTS := games demos old projects
 COMPONENTS := $(REPO_COMPONENTS) talks
 
 PARTIALS := $(COMPONENTS:%=$(BUILD)/%.partial)

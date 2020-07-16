@@ -9,7 +9,7 @@ interface MightHaveTopics extends Record<string, any> {
 const te = new TextEncoder();
 const td = new TextDecoder();
 
-const REMOVE_TOPICS = ["hp", "game", "demo"];
+const REMOVE_TOPICS = ["game", "demo", "old", "hp-include"];
 const TOPIC_NAMES: Record<string, string> = {
 	"php": "PHP",
 	"7drl": "7DRL",

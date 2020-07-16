@@ -14,7 +14,7 @@ const template = readFile(Deno.args[0]);
 const data = {};
 const partials: Record<string, string> = {};
 
-["games", "demos", "projects", "talks"].forEach(name => {
+["games", "demos", "old", "projects", "talks"].forEach(name => {
 	partials[name] = readFile(`build/${name}.partial`);
 });
 

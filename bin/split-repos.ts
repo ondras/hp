@@ -7,10 +7,12 @@ function createFilter(mode: string) {
 	return (repo: Repo) => {
 		let isGame = repo.topics.includes("game");
 		let isDemo = repo.topics.includes("demo");
+		let isOld = repo.topics.includes("old");
 		switch (mode) {
 			case "games": return isGame;
 			case "demos": return isDemo;
-			default: return !isGame && !isDemo;
+			case "old": return isOld;
+			default: return !isGame && !isDemo && !isOld;
 		}
 	}
 }
