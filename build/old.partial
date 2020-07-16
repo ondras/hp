@@ -1,11 +1,31 @@
 <dl>
   <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;smon"> 
+    smon
+     </a> 
+  </dt>
+  <dd>
+    simple service monitoring
+    
+    
+  </dd>
+  <dt>
      <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;TeaJS"> 
     TeaJS
      </a> 
   </dt>
   <dd>
     Your daily cup of server-side Javascript.
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;elm-irc"> 
+    elm-irc
+     </a> 
+  </dt>
+  <dd>
+    Elm IRC client library
     
     
   </dd>
@@ -26,7 +46,7 @@
   </dt>
   <dd>
     Drawing in multiplayer (server needed)
-     <span class="topic">Websocket</span> 
+     <span class="topic">WebSocket</span> 
      <a href="http:&#x2F;&#x2F;ondras.github.io&#x2F;draw&#x2F;">Try it</a> 
   </dd>
   <dt>

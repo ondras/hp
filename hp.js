@@ -6,7 +6,15 @@ function processTopics(parent) {
 	function toggle(topic) {
 		current = (topic == current ? "" : topic);
 		[...parent.querySelectorAll("dd")].forEach(dd => {
-			let missing = ![...dd.querySelectorAll(".topic")].some(node => node.textContent == current);
+			let missing = true;
+			[...dd.querySelectorAll(".topic")].forEach(node => {
+				if (node.textContent == current) {
+					node.classList.add("current");
+					missing = false;
+				} else {
+					node.classList.remove("current");
+				}
+			});
 			if (current == "") { missing = false; }
 			dd.previousElementSibling.classList.toggle("topic-missing", missing);
 		});

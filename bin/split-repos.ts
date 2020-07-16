@@ -6,13 +6,13 @@ const td = new TextDecoder();
 function createFilter(mode: string) {
 	return (repo: Repo) => {
 		let isGame = repo.topics.includes("game");
-		let isDemo = repo.topics.includes("demo");
+		let isUtil = repo.topics.includes("util");
 		let isOld = repo.topics.includes("old");
 		switch (mode) {
 			case "games": return isGame;
-			case "demos": return isDemo;
+			case "utils": return isUtil;
 			case "old": return isOld;
-			default: return !isGame && !isDemo && !isOld;
+			default: return !isGame && !isUtil && !isOld;
 		}
 	}
 }

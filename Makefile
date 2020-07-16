@@ -6,7 +6,7 @@ TEMPLATE := template
 
 DENO := ~/deno/deno
 REPOS := $(DATA)/repos.json
-REPO_COMPONENTS := games demos old projects
+REPO_COMPONENTS := games utils old projects
 COMPONENTS := $(REPO_COMPONENTS) talks
 
 PARTIALS := $(COMPONENTS:%=$(BUILD)/%.partial)

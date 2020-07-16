@@ -1,5 +1,25 @@
 <dl>
   <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;goldfish"> 
+    goldfish
+     </a> 
+  </dt>
+  <dd>
+    Goldfish: a 7-day roguelike game (2014)
+     <span class="topic">7DRL</span>  <span class="topic">Roguelike</span> 
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rubik"> 
+    rubik
+     </a> 
+  </dt>
+  <dd>
+    CSS Rubik&#39;s Cube
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;rubik&#x2F;">Try it</a> 
+  </dd>
+  <dt>
      <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rri"> 
     rri
      </a> 
@@ -18,6 +38,36 @@
     Dr. Drago&#39;s Madcap Chase
     
      <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;drago&#x2F;game&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dobble"> 
+    dobble
+     </a> 
+  </dt>
+  <dd>
+    Dobble &#x2F; Spot it! with Emoji
+    
+     <a href="https:&#x2F;&#x2F;ondras.github.io&#x2F;dobble&#x2F;">Try it</a> 
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rustymind"> 
+    rustymind
+     </a> 
+  </dt>
+  <dd>
+    impl Mastermind for Rust {}
+    
+    
+  </dd>
+  <dt>
+     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;7drl-2019"> 
+    7drl-2019
+     </a> 
+  </dt>
+  <dd>
+    The Curse of the General Sibling Combinator (7DRL 2019)
+     <span class="topic">7DRL</span>  <span class="topic">Roguelike</span> 
+     <a href="https:&#x2F;&#x2F;ondras.zarovi.cz&#x2F;games&#x2F;7drl-2019&#x2F;">Try it</a> 
   </dd>
   <dt>
      <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;sleeping-beauty"> 
@@ -168,15 +218,5 @@
     Simple board game
     
      <a href="https:&#x2F;&#x2F;atoms.firebaseapp.com&#x2F;">Try it</a> 
-  </dd>
-  <dt>
-     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;goldfish"> 
-    goldfish
-     </a> 
-  </dt>
-  <dd>
-    Making the world a better place, one wish at a time
-     <span class="topic">7DRL</span>  <span class="topic">Roguelike</span> 
-    
   </dd>
 </dl>

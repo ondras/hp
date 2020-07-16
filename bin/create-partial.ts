@@ -9,11 +9,12 @@ interface MightHaveTopics extends Record<string, any> {
 const te = new TextEncoder();
 const td = new TextDecoder();
 
-const REMOVE_TOPICS = ["game", "demo", "old", "hp-include"];
+const REMOVE_TOPICS = ["game", "util", "old", "hp-include"];
 const TOPIC_NAMES: Record<string, string> = {
-	"php": "PHP",
 	"7drl": "7DRL",
-	"javascript": "JavaScript"
+	"webgl": "WebGL",
+	"websocket": "WebSocket",
+	"3d-printing": "3D Printing"
 }
 
 function capitalize(word: string) { return `${word.charAt(0).toUpperCase()}${word.substring(1)}`; }
