@@ -39,6 +39,10 @@ summary ~ * {
 	padding-left: 1em;
 }
 
+details h2 {
+	display: inline;
+}
+
 dt {
 	font-weight: bold;
 }
