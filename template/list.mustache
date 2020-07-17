@@ -2,6 +2,7 @@
 {{#.}}
   <dt>
     {{#html_url}}<a href="{{.}}">{{/html_url}}{{name}}{{#html_url}}</a>{{/html_url}}
+    {{#stargazers_count}}{{.}}⭐{{/stargazers_count}}
     {{#homepage}} <a class="try" href="{{.}}">Try it online</a> {{/homepage}}
   </dt>
   <dd>

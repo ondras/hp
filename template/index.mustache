@@ -8,100 +8,88 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>Ondřej Žára &ndash; Homepage</title>
 		<link rel="stylesheet" href="style.css" />
-		<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,latin-ext" rel="stylesheet" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" />
 		<link rel="stylesheet" href="../hp.css" />
 	</head>
 
-	<body itemscope itemtype="http://data-vocabulary.org/Person">
-		<div id="games" class="fake"></div>
-		<div id="projects" class="fake"></div>
-		<div id="demos" class="fake"></div>
-		<div id="talks" class="fake"></div>
-		<div id="writings" class="fake"></div>
-		<div id="old" class="fake"></div>
-
-		<header>
-			<h1 itemprop="name"><a href="#">Ondřej Žára</a></h1>
-			<nav>
-				<ul>
-					<li><a href="mailto:ondras@zarovi.cz"><img src="img/email.png" alt="E-mail" title="E-mail" /></a></li>
-					<li><a rel="me" href="https://github.com/ondras/"><img src="img/github.png" alt="GitHub" title="GitHub" /></a></li>
-					<li><a rel="me" href="http://twitter.com/0ndras"><img src="img/twitter.png" alt="Twitter" title="Twitter" /></a></li>
-					<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3340079"><img src="img/paypal.gif" alt="PayPal" title="PayPal" /></a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<nav>
-			<ul>
-				<li><a href="#games">
-					Games
-					<span>Written in JS, playable in browser</span>
-				</a></li>
-				<li><a href="#projects">
-					Projects
-					<span>Larger non-gaming stuff, mostly JS</span>
-				</a></li>
-				<li><a href="#utils">
-					Utilities
-					<span>Smaller non-gaming stuff, mostly JS</span>
-				</a></li>
-				<li><a href="#talks">
-					Talks
-					<span>List of recently given presentations</span>
-				</a></li>
-				<li><a href="#writings">
-					Writings
-					<span>Collected blog-less works</span>
-				</a></li>
-				<li><a href="#old">
-					Old projects
-					<span>None of these is guaranteed to work :)</span>
-				</a></li>
-			</ul>
-		</nav>
+	<body>
+		<h1>Ondřej Žára</h1>
 
 		<section>
 			<h2>About</h2>
-			<img itemprop="photo" src="img/oz.jpg" alt="portrait" title="portrait" />
+			<img src="img/oz.jpg" alt="portrait" />
 			<p>
-				<span itemprop="role">JavaScript developer</span>, living in <span itemprop="address">Prague, Czech Republic</span>.
-				Currently employed by <a href="http://www.seznam.cz/" itemprop="affiliation">Seznam.cz</a>.
+				JavaScript developer, living in Prague, Czech Republic. Currently employed by <a href="https://www.seznam.cz/">Seznam.cz</a>.
 			</p>
 			<p>
-				Interested in <a href="cv/">my résumé</a>? Try <a href="http://resume.github.com/?ondras">the GitHub version</a> as well.
+				Get in touch:
+				<a href="cv/">Résumé</a> •
+				<a href="http://resume.github.com/?ondras">GitHub résumé</a> •
+				<a href="mailto:ondras@zarovi.cz">E-mail</a></li> •
+				<a rel="me" href="https://github.com/ondras/">GitHub</a></li> •
+				<a rel="me" href="http://twitter.com/0ndras">Twitter</a></li> •
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3340079">PayPal</a></li>
 			</p>
 		</section>
 
-		<section data-content="games">
-			<h2>Games</h2>
+		<details id="games" open>
+			<summary>
+				<h2>Games</h2>
+				<span>Written in JS, playable in browser</span>
+			</summary>
 			{{>games}}
-		</section>
+		</details>
 
-		<section data-content="projects">
-			<h2>Projects</h2>
+		<details id="projects" open>
+			<summary>
+				<h2>Projects</h2>
+				<span>Larger non-gaming stuff, mostly JS</span>
+			</summary>
 			{{>projects}}
-		</section>
+		</details>
 
-		<section data-content="utils">
-			<h2>Utilities</h2>
+		<details id="utils" open>
+			<summary>
+				<h2>Utilities</h2>
+				<span>Smaller non-gaming stuff, mostly JS</span>
+			</summary>
 			{{>utils}}
-		</section>
+		</details>
 
-		<section data-content="talks">
-			<h2>Talks</h2>
+		<details id="talks" open>
+			<summary>
+				<h2>Talks</h2>
+				<span>List of recently given presentations</span>
+			</summary>
 			{{>talks}}
-		</section>
+		</details>
 
-		<section data-content="writings">
-			<h2>Writings</h2>
+		<details id="writings" open>
+			<summary>
+				<h2>Writings</h2>
+				<span>Collected blog-less works</span>
+			</summary>
 			{{>talks}}
-		</section>
+		</details>
 
-		<section data-content="old">
-			<h2>Old stuff</h2>
+		<details id="old" open>
+			<summary>
+				<h2>Old stuff</h2>
+				<span>Old, obsoleted and generally non-functional stuff</span>
+			</summary>
 			{{>old}}
-		</section>
+		</details>
+
+		<nav>
+			<ul>
+				<li><a href="#games">Games</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#utils">Utilities</a></li>
+				<li><a href="#talks">Talks</a></li>
+				<li><a href="#writings">Writings</a></li>
+				<li><a href="#old">Old projects</a></li>
+			</ul>
+		</nav>
 
 		<script type="text/javascript">
 			var _gaq = _gaq || [];

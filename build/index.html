@@ -8,76 +8,39 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>Ondřej Žára &ndash; Homepage</title>
 		<link rel="stylesheet" href="style.css" />
-		<link href="//fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin,latin-ext" rel="stylesheet" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" />
 		<link rel="stylesheet" href="../hp.css" />
 	</head>
 
-	<body itemscope itemtype="http://data-vocabulary.org/Person">
-		<div id="games" class="fake"></div>
-		<div id="projects" class="fake"></div>
-		<div id="demos" class="fake"></div>
-		<div id="talks" class="fake"></div>
-		<div id="writings" class="fake"></div>
-		<div id="old" class="fake"></div>
-
-		<header>
-			<h1 itemprop="name"><a href="#">Ondřej Žára</a></h1>
-			<nav>
-				<ul>
-					<li><a href="mailto:ondras@zarovi.cz"><img src="img/email.png" alt="E-mail" title="E-mail" /></a></li>
-					<li><a rel="me" href="https://github.com/ondras/"><img src="img/github.png" alt="GitHub" title="GitHub" /></a></li>
-					<li><a rel="me" href="http://twitter.com/0ndras"><img src="img/twitter.png" alt="Twitter" title="Twitter" /></a></li>
-					<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3340079"><img src="img/paypal.gif" alt="PayPal" title="PayPal" /></a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<nav>
-			<ul>
-				<li><a href="#games">
-					Games
-					<span>Written in JS, playable in browser</span>
-				</a></li>
-				<li><a href="#projects">
-					Projects
-					<span>Larger non-gaming stuff, mostly JS</span>
-				</a></li>
-				<li><a href="#utils">
-					Utilities
-					<span>Smaller non-gaming stuff, mostly JS</span>
-				</a></li>
-				<li><a href="#talks">
-					Talks
-					<span>List of recently given presentations</span>
-				</a></li>
-				<li><a href="#writings">
-					Writings
-					<span>Collected blog-less works</span>
-				</a></li>
-				<li><a href="#old">
-					Old projects
-					<span>None of these is guaranteed to work :)</span>
-				</a></li>
-			</ul>
-		</nav>
+	<body>
+		<h1>Ondřej Žára</h1>
 
 		<section>
 			<h2>About</h2>
-			<img itemprop="photo" src="img/oz.jpg" alt="portrait" title="portrait" />
+			<img src="img/oz.jpg" alt="portrait" />
 			<p>
-				<span itemprop="role">JavaScript developer</span>, living in <span itemprop="address">Prague, Czech Republic</span>.
-				Currently employed by <a href="http://www.seznam.cz/" itemprop="affiliation">Seznam.cz</a>.
+				JavaScript developer, living in Prague, Czech Republic. Currently employed by <a href="https://www.seznam.cz/">Seznam.cz</a>.
 			</p>
 			<p>
-				Interested in <a href="cv/">my résumé</a>? Try <a href="http://resume.github.com/?ondras">the GitHub version</a> as well.
+				Get in touch:
+				<a href="cv/">Résumé</a> •
+				<a href="http://resume.github.com/?ondras">GitHub résumé</a> •
+				<a href="mailto:ondras@zarovi.cz">E-mail</a></li> •
+				<a rel="me" href="https://github.com/ondras/">GitHub</a></li> •
+				<a rel="me" href="http://twitter.com/0ndras">Twitter</a></li> •
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3340079">PayPal</a></li>
 			</p>
 		</section>
 
-		<section data-content="games">
-			<h2>Games</h2>
+		<details id="games" open>
+			<summary>
+				<h2>Games</h2>
+				<span>Written in JS, playable in browser</span>
+			</summary>
 			<dl>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;goldfish">goldfish</a>
+			    25⭐
 			    
 			  </dt>
 			  <dd>
@@ -86,6 +49,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rubik">rubik</a>
+			    2⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;rubik&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -94,6 +58,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rri">rri</a>
+			    25⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;rri&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -102,6 +67,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;drago">drago</a>
+			    13⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;drago&#x2F;game&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -110,6 +76,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dobble">dobble</a>
+			    4⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;dobble&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -118,6 +85,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rustymind">rustymind</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -126,6 +94,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;7drl-2019">7drl-2019</a>
+			    3⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.zarovi.cz&#x2F;games&#x2F;7drl-2019&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -134,6 +103,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;sleeping-beauty">sleeping-beauty</a>
+			    111⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;sleeping-beauty&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -142,6 +112,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;geometry">geometry</a>
+			    
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;geometry&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -150,6 +121,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;js-like">js-like</a>
+			    5⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;js-like&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -158,6 +130,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;brain-defense">brain-defense</a>
+			    
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;brain-defense&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -166,6 +139,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;roguezombies">roguezombies</a>
+			    2⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;roguezombies&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -174,6 +148,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;railrl">railrl</a>
+			    5⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;railrl&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -182,6 +157,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;click">click</a>
+			    
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;click&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -190,6 +166,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;blockout">blockout</a>
+			    2⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;blockout&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -198,6 +175,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;conception">conception</a>
+			    11⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;conception&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -206,6 +184,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;trw">trw</a>
+			    113⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;trw&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -214,6 +193,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cafe-havoc">cafe-havoc</a>
+			    10⭐
 			    
 			  </dt>
 			  <dd>
@@ -222,6 +202,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;custom-tetris">custom-tetris</a>
+			    74⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;custom-tetris&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -230,6 +211,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;wardens-duty">wardens-duty</a>
+			    3⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;wardens-duty&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -238,6 +220,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;star-wars">star-wars</a>
+			    100⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.com&#x2F;star-wars">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -246,6 +229,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;atoms">atoms</a>
+			    1⭐
 			     <a class="try" href="https:&#x2F;&#x2F;atoms.firebaseapp.com&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -253,13 +237,17 @@
 			    
 			  </dd>
 			</dl>
-		</section>
+		</details>
 
-		<section data-content="projects">
-			<h2>Projects</h2>
+		<details id="projects" open>
+			<summary>
+				<h2>Projects</h2>
+				<span>Larger non-gaming stuff, mostly JS</span>
+			</summary>
 			<dl>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rot.js">rot.js</a>
+			    1692⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;rot.js&#x2F;hp&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -268,6 +256,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cyp">cyp</a>
+			    59⭐
 			    
 			  </dt>
 			  <dd>
@@ -276,6 +265,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cookie-roller">cookie-roller</a>
+			    
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;cookie-roller&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -284,6 +274,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;bip">bip</a>
+			    
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;bip&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -292,6 +283,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ws2mpd">ws2mpd</a>
+			    3⭐
 			    
 			  </dt>
 			  <dd>
@@ -300,6 +292,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;custom-range">custom-range</a>
+			    2⭐
 			     <a class="try" href="https:&#x2F;&#x2F;jsfiddle.net&#x2F;ondras&#x2F;o1kpw6jy&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -308,6 +301,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;maslo">maslo</a>
+			    
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.zarovi.cz&#x2F;slides&#x2F;2018&#x2F;maslo&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -316,6 +310,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;harmoniums">harmoniums</a>
+			    1⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;harmoniums&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -325,6 +320,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;pandoc-filters">pandoc-filters</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p>Various custom filters for Pandoc</p>
@@ -332,6 +328,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;mp">mp</a>
+			    14⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;mp&#x2F;dist&#x2F;web&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -340,6 +337,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;3">3</a>
+			    
 			     <a class="try" href="https:&#x2F;&#x2F;toad.cz&#x2F;~ondras&#x2F;3&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -348,6 +346,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;primitive.js">primitive.js</a>
+			    719⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;primitive.js&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -356,6 +355,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;my-mind">my-mind</a>
+			    2446⭐
 			     <a class="try" href="https:&#x2F;&#x2F;my-mind.github.io">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -364,6 +364,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;fireworks-webgl">fireworks-webgl</a>
+			    41⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;fireworks-webgl">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -373,6 +374,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;deno-json-rpc">deno-json-rpc</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p></p>
@@ -380,6 +382,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;hitman">hitman</a>
+			    
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;hitman&#x2F;demo&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -389,6 +392,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;kucharka">kucharka</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p>Google Code mirror</p>
@@ -396,6 +400,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;wwwsqldesigner">wwwsqldesigner</a>
+			    2186⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.zarovi.cz&#x2F;sql&#x2F;demo&#x2F;?keyword&#x3D;default">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -404,6 +409,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cfo">cfo</a>
+			    25⭐
 			    
 			  </dt>
 			  <dd>
@@ -412,6 +418,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;chords">chords</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -420,6 +427,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ex-ample">ex-ample</a>
+			    1⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;ex-ample&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -428,6 +436,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;fixmetodo">fixmetodo</a>
+			    2⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;fixmetodo&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -436,6 +445,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;instant-button">instant-button</a>
+			    7⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;instant-button&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -444,6 +454,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;arduino">arduino</a>
+			    2⭐
 			    
 			  </dt>
 			  <dd>
@@ -453,6 +464,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;browser-dgram">browser-dgram</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p></p>
@@ -460,6 +472,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ogar">ogar</a>
+			    2⭐
 			    
 			  </dt>
 			  <dd>
@@ -468,6 +481,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rollup-plugin-graph">rollup-plugin-graph</a>
+			    19⭐
 			    
 			  </dt>
 			  <dd>
@@ -476,6 +490,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;oz.php">oz.php</a>
+			    1⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.zarovi.cz&#x2F;projects&#x2F;oz.php&#x2F;demo&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -484,6 +499,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;jsslides">jsslides</a>
+			    40⭐
 			     <a class="try" href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;jsslides&#x2F;wiki">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -492,6 +508,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dragons">dragons</a>
+			    5⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;dragons&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -501,6 +518,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;netwars">netwars</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p></p>
@@ -509,6 +527,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;atom-find-in-directory">atom-find-in-directory</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p>Atom&#39;s &quot;Project find&quot; within the current directory</p>
@@ -516,6 +535,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dw">dw</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -524,6 +544,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;nemu">nemu</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -533,6 +554,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;numberwang-bot">numberwang-bot</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p></p>
@@ -540,6 +562,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;just-spaceships">just-spaceships</a>
+			    6⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;just-spaceships&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -548,6 +571,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;firecommander">firecommander</a>
+			    2⭐
 			     <a class="try" href="https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-us&#x2F;firefox&#x2F;addon&#x2F;fire-commander&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -556,6 +580,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;gps-exif">gps-exif</a>
+			    8⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;gps-exif&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -564,6 +589,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ws2irc">ws2irc</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -573,6 +599,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;nw">nw</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p></p>
@@ -580,6 +607,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;pasy.js">pasy.js</a>
+			    7⭐
 			    
 			  </dt>
 			  <dd>
@@ -588,6 +616,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;fractal">fractal</a>
+			    4⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;fractal&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -596,6 +625,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;coral">coral</a>
+			    2⭐
 			     <a class="try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;coral&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -604,6 +634,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;gc">gc</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -612,6 +643,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;oscope">oscope</a>
+			    38⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;oscope&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -620,6 +652,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;iv">iv</a>
+			    14⭐
 			    
 			  </dt>
 			  <dd>
@@ -628,6 +661,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;javascript">javascript</a>
+			    10⭐
 			    
 			  </dt>
 			  <dd>
@@ -636,6 +670,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;polar-image">polar-image</a>
+			    2⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;polar-image&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -644,6 +679,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;screenplay.css">screenplay.css</a>
+			    2⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;screenplay.css&#x2F;demo.html">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -652,6 +688,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;turbo-visionary">turbo-visionary</a>
+			    2⭐
 			    
 			  </dt>
 			  <dd>
@@ -660,6 +697,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;promise">promise</a>
+			    18⭐
 			    
 			  </dt>
 			  <dd>
@@ -668,6 +706,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ie8eventtarget">ie8eventtarget</a>
+			    5⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;ie8eventtarget&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -676,6 +715,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ardulike">ardulike</a>
+			    2⭐
 			    
 			  </dt>
 			  <dd>
@@ -684,6 +724,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;need-based-ai">need-based-ai</a>
+			    3⭐
 			     <a class="try" href="http:&#x2F;&#x2F;roguebasin.roguelikedevelopment.org&#x2F;index.php?title&#x3D;Need-based_AI_in_JavaScript">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -692,6 +733,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;oz.js">oz.js</a>
+			    4⭐
 			    
 			  </dt>
 			  <dd>
@@ -699,13 +741,17 @@
 			    
 			  </dd>
 			</dl>
-		</section>
+		</details>
 
-		<section data-content="utils">
-			<h2>Utilities</h2>
+		<details id="utils" open>
+			<summary>
+				<h2>Utilities</h2>
+				<span>Smaller non-gaming stuff, mostly JS</span>
+			</summary>
 			<dl>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;emojimage">emojimage</a>
+			    1⭐
 			     <a class="try" href="https:&#x2F;&#x2F;emojimage.toad.cz&#x2F;%F0%9F%A4%A6">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -715,6 +761,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dotfiles">dotfiles</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p></p>
@@ -723,6 +770,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;wsl">wsl</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p>WSL2 utilities</p>
@@ -730,6 +778,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ahk">ahk</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -739,6 +788,7 @@
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;backup">backup</a>
 			    
+			    
 			  </dt>
 			  <dd>
 			    <p>Wasabi+Duplicity</p>
@@ -746,6 +796,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;browsershot">browsershot</a>
+			    41⭐
 			    
 			  </dt>
 			  <dd>
@@ -754,6 +805,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rnotify">rnotify</a>
+			    3⭐
 			    
 			  </dt>
 			  <dd>
@@ -761,10 +813,13 @@
 			    
 			  </dd>
 			</dl>
-		</section>
+		</details>
 
-		<section data-content="talks">
-			<h2>Talks</h2>
+		<details id="talks" open>
+			<summary>
+				<h2>Talks</h2>
+				<span>List of recently given presentations</span>
+			</summary>
 			  <h3> 2020 </h3>
 
 			  <dl>
@@ -777,10 +832,13 @@
 
 			  <dl>
 			  </dl>
-		</section>
+		</details>
 
-		<section data-content="writings">
-			<h2>Writings</h2>
+		<details id="writings" open>
+			<summary>
+				<h2>Writings</h2>
+				<span>Collected blog-less works</span>
+			</summary>
 			  <h3> 2020 </h3>
 
 			  <dl>
@@ -793,13 +851,17 @@
 
 			  <dl>
 			  </dl>
-		</section>
+		</details>
 
-		<section data-content="old">
-			<h2>Old stuff</h2>
+		<details id="old" open>
+			<summary>
+				<h2>Old stuff</h2>
+				<span>Old, obsoleted and generally non-functional stuff</span>
+			</summary>
 			<dl>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;smon">smon</a>
+			    7⭐
 			    
 			  </dt>
 			  <dd>
@@ -808,6 +870,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;TeaJS">TeaJS</a>
+			    27⭐
 			    
 			  </dt>
 			  <dd>
@@ -816,6 +879,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;elm-irc">elm-irc</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -824,6 +888,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;elm-slides">elm-slides</a>
+			    11⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;elm-slides&#x2F;out&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -832,6 +897,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;draw">draw</a>
+			    4⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;draw&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -840,6 +906,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;html5-animation-framework">html5-animation-framework</a>
+			    3⭐
 			    
 			  </dt>
 			  <dd>
@@ -848,6 +915,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;a-g-e">a-g-e</a>
+			    
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;a-g-e&#x2F;testbed.html">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -856,6 +924,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;photo">photo</a>
+			    11⭐
 			     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;photo&#x2F;">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -864,6 +933,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;hash">hash</a>
+			    3⭐
 			     <a class="try" href="https:&#x2F;&#x2F;developer.mozilla.org&#x2F;cs&#x2F;demos&#x2F;detail&#x2F;hash-bruteforcer">Try it online</a> 
 			  </dt>
 			  <dd>
@@ -872,6 +942,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;syntax">syntax</a>
+			    1⭐
 			    
 			  </dt>
 			  <dd>
@@ -880,6 +951,7 @@
 			  </dd>
 			  <dt>
 			    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;zombie">zombie</a>
+			    2⭐
 			    
 			  </dt>
 			  <dd>
@@ -887,7 +959,18 @@
 			    
 			  </dd>
 			</dl>
-		</section>
+		</details>
+
+		<nav>
+			<ul>
+				<li><a href="#games">Games</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#utils">Utilities</a></li>
+				<li><a href="#talks">Talks</a></li>
+				<li><a href="#writings">Writings</a></li>
+				<li><a href="#old">Old projects</a></li>
+			</ul>
+		</nav>
 
 		<script type="text/javascript">
 			var _gaq = _gaq || [];

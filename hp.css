@@ -1,4 +1,47 @@
+* {
+	transition: all 300ms;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: lato, sans-serif;
+	background-color: rgb(100,100,100);
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	font-size: 112.5%;
+	max-width: 800px;
+	margin: auto;
+	--lh: 1.25;
+	line-height: var(--lh);
+}
+
+h1, nav {
+	order: -1;
+}
+
+h1, h2, p, a:not(.try) {
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+}
+
+a {
+	text-decoration-thickness: 1px;
+}
+
+a:not(:hover):not(:focus) {
+	text-decoration-color: #aaa;
+}
+
+dt {
+	font-weight: bold;
+}
+
 dd {
+	margin-top: 0.33em;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
@@ -18,26 +61,69 @@ dd + dt {
 .topic, a.try {
 	white-space: nowrap;
 	border-radius: 8px;
-	padding: 2px 6px;
+	padding: 1px 4px;
+	background-clip: padding-box;
+	border: 1px solid transparent;
 }
 
 .topic:hover, a.try:hover {
-	box-shadow: 0 0 2px 0 black;
+	border-color: black;
 }
 
 .topic {
 	margin: 0 2px;
 	cursor: pointer;
-	transition: all 100ms;
 }
 
 a.try {
 	color: inherit;
 	background-color: yellow;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 88.88%;
+	margin-left: 6px;
 }
-
 
 .topic.current {
-	box-shadow: 0 0 1px 1px black;
+	font-weight: bold;
 }
 
+nav {
+	position: sticky;
+	top: 0;
+	box-shadow: 0 3px 5px -3px #000;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	flex: 1 1 0;
+}
+
+nav a {
+	display: block;
+	padding: 1em 0;
+	text-align: center;
+}
+
+[href="#games"] { background-color: rgb(26, 44, 54); }
+[href="#projects"] { background-color: rgb(101, 120, 130); }
+[href="#utils"] { background-color: rgb(94, 135, 0); }
+[href="#talks"] { background-color: rgb(186, 156, 0); }
+[href="#writings"] { background-color: rgb(201, 81, 0); }
+[href="#old"] { background-color: rgb(173, 0, 15); }
+
+#games:target ~ nav [href="#games"],
+#projects:target ~ nav [href="#projects"],
+#utils:target ~ nav [href="#utils"],
+#talks:target ~ nav [href="#talks"],
+#writings:target ~ nav [href="#writings"],
+#old:target ~ nav [href="#old"] {
+	font-weight: bold;
+	text-decoration: none;
+}

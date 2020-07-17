@@ -38,5 +38,5 @@ function assignColor(topic, index, all) {
 	[...document.querySelectorAll(`.topic-${index}`)].forEach(node => node.style.backgroundColor = bg);
 }
 
-[...document.querySelectorAll("section")].forEach(processTopics);
+[...document.querySelectorAll("details")].forEach(processTopics);
 allTopics.forEach(assignColor);
