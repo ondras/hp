@@ -1,14 +1,12 @@
 <dl>
 {{#.}}
   <dt>
-    {{#html_url}} <a href="{{.}}"> {{/html_url}}
-    {{name}}
-    {{#html_url}} </a> {{/html_url}}
+    {{#html_url}}<a href="{{.}}">{{/html_url}}{{name}}{{#html_url}}</a>{{/html_url}}
+    {{#homepage}} <a class="try" href="{{.}}">Try it online</a> {{/homepage}}
   </dt>
   <dd>
-    {{description}}
+    <p>{{description}}</p>
     {{#topics}} <span class="topic">{{.}}</span> {{/topics}}
-    {{#homepage}} <a href="{{.}}">Try it</a> {{/homepage}}
   </dd>
 {{/.}}
 </dl>

@@ -1,16 +1,43 @@
-.topic-missing, .topic-missing + dd { opacity: 0.5; }
+dd {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
 
-.topic {
+dd p {
+	margin: 0;
+	flex: auto;
+}
+
+dd + dt {
+	margin-top: 1em;
+}
+
+.topic-missing, .topic-missing + dd { display: none; }
+
+.topic, a.try {
+	white-space: nowrap;
 	border-radius: 8px;
 	padding: 2px 6px;
-	cursor: pointer;
-	transition: all 300ms;
 }
 
-.topic:hover {
+.topic:hover, a.try:hover {
 	box-shadow: 0 0 2px 0 black;
 }
+
+.topic {
+	margin: 0 2px;
+	cursor: pointer;
+	transition: all 100ms;
+}
+
+a.try {
+	color: inherit;
+	background-color: yellow;
+}
+
 
 .topic.current {
 	box-shadow: 0 0 1px 1px black;
 }
+

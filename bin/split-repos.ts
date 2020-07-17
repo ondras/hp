@@ -27,4 +27,4 @@ const filtered = all.filter(filter);
 const str = JSON.stringify(filtered);
 Deno.stdout.writeSync(te.encode(str));
 
-Deno.stderr.writeSync(te.encode(`Fetched ${all.length} repos, wrote ${filtered.length} ${mode}\n`));
+Deno.stderr.writeSync(te.encode(`Read ${all.length} repos, wrote ${filtered.length} ${mode}\n`));
