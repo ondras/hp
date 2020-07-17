@@ -2,64 +2,64 @@
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;emojimage">emojimage</a>
     1⭐
-     <a class="try" href="https:&#x2F;&#x2F;emojimage.toad.cz&#x2F;%F0%9F%A4%A6">Try it online</a> 
   </dt>
   <dd>
     <p>Create SVG images&#x2F;favicons from emoji</p>
     
+     <a class="tag try" href="https:&#x2F;&#x2F;emojimage.toad.cz&#x2F;%F0%9F%A4%A6">Try it</a> 
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dotfiles">dotfiles</a>
-    
     
   </dt>
   <dd>
     <p></p>
     
+    
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;wsl">wsl</a>
-    
     
   </dt>
   <dd>
     <p>WSL2 utilities</p>
     
+    
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ahk">ahk</a>
     1⭐
-    
   </dt>
   <dd>
     <p>Collection of AutoHotkey scripts that I use.</p>
+    
     
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;backup">backup</a>
     
-    
   </dt>
   <dd>
     <p>Wasabi+Duplicity</p>
+    
     
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;browsershot">browsershot</a>
     41⭐
-    
   </dt>
   <dd>
     <p>getDisplayMedia screenshots</p>
+    
     
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rnotify">rnotify</a>
     3⭐
-    
   </dt>
   <dd>
     <p>Forwarding remote notifications to a local machine</p>
+    
     
   </dd>
 </dl>

@@ -11,7 +11,9 @@ function readFile(name: string) {
 if (Deno.args.length < 1) { throw new Error("Pass template name as an argument"); }
 
 const template = readFile(Deno.args[0]);
-const data = {};
+const data = {
+	generated: new Date().toDateString()
+};
 const partials: Record<string, string> = {};
 
 ["games", "utils", "old", "projects", "talks"].forEach(name => {

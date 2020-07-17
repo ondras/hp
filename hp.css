@@ -17,23 +17,26 @@ body {
 	margin: auto;
 	--lh: 1.25;
 	line-height: var(--lh);
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
 }
 
 h1, nav {
 	order: -1;
 }
 
-h1, h2, p, a:not(.try) {
-	color: #fff;
-	text-shadow: 1px 1px 1px #000;
-}
-
 a {
+	color: inherit;
 	text-decoration-thickness: 1px;
 }
 
 a:not(:hover):not(:focus) {
 	text-decoration-color: #aaa;
+}
+
+summary ~ * {
+	border-left: 3px solid rgba(255, 255, 255, 0.2);
+	padding-left: 1em;
 }
 
 dt {
@@ -58,30 +61,26 @@ dd + dt {
 
 .topic-missing, .topic-missing + dd { display: none; }
 
-.topic, a.try {
+.tag {
+	color: initial;
+	text-shadow: initial;
+
 	white-space: nowrap;
 	border-radius: 8px;
 	padding: 1px 4px;
 	background-clip: padding-box;
 	border: 1px solid transparent;
-}
-
-.topic:hover, a.try:hover {
-	border-color: black;
-}
-
-.topic {
 	margin: 0 2px;
 	cursor: pointer;
 }
 
+.tag:hover {
+	border-color: black;
+}
+
 a.try {
-	color: inherit;
 	background-color: yellow;
 	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 88.88%;
-	margin-left: 6px;
 }
 
 .topic.current {

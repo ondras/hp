@@ -2,100 +2,100 @@
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;smon">smon</a>
     7⭐
-    
   </dt>
   <dd>
     <p>simple service monitoring</p>
+    
     
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;TeaJS">TeaJS</a>
     27⭐
-    
   </dt>
   <dd>
     <p>Your daily cup of server-side Javascript.</p>
+    
     
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;elm-irc">elm-irc</a>
     1⭐
-    
   </dt>
   <dd>
     <p>Elm IRC client library</p>
+    
     
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;elm-slides">elm-slides</a>
     11⭐
-     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;elm-slides&#x2F;out&#x2F;">Try it online</a> 
   </dt>
   <dd>
     <p>Slide deck system written in Elm</p>
-     <span class="topic">Elm</span> 
+     <span class="tag topic">Elm</span> 
+     <a class="tag try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;elm-slides&#x2F;out&#x2F;">Try it</a> 
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;draw">draw</a>
     4⭐
-     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;draw&#x2F;">Try it online</a> 
   </dt>
   <dd>
     <p>Drawing in multiplayer (server needed)</p>
-     <span class="topic">WebSocket</span> 
+     <span class="tag topic">WebSocket</span> 
+     <a class="tag try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;draw&#x2F;">Try it</a> 
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;html5-animation-framework">html5-animation-framework</a>
     3⭐
-    
   </dt>
   <dd>
     <p>Google Code mirror</p>
+    
     
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;a-g-e">a-g-e</a>
     
-     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;a-g-e&#x2F;testbed.html">Try it online</a> 
   </dt>
   <dd>
     <p>JS-based engine for displaying simple textual adventure games.</p>
     
+     <a class="tag try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;a-g-e&#x2F;testbed.html">Try it</a> 
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;photo">photo</a>
     11⭐
-     <a class="try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;photo&#x2F;">Try it online</a> 
   </dt>
   <dd>
     <p>Web Workers used to process photos</p>
     
+     <a class="tag try" href="http:&#x2F;&#x2F;ondras.github.io&#x2F;photo&#x2F;">Try it</a> 
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;hash">hash</a>
     3⭐
-     <a class="try" href="https:&#x2F;&#x2F;developer.mozilla.org&#x2F;cs&#x2F;demos&#x2F;detail&#x2F;hash-bruteforcer">Try it online</a> 
   </dt>
   <dd>
     <p>Mozilla DevDerby Demo</p>
     
+     <a class="tag try" href="https:&#x2F;&#x2F;developer.mozilla.org&#x2F;cs&#x2F;demos&#x2F;detail&#x2F;hash-bruteforcer">Try it</a> 
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;syntax">syntax</a>
     1⭐
-    
   </dt>
   <dd>
     <p>RE-based syntax highlighter, implemented in Javascript.</p>
+    
     
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;zombie">zombie</a>
     2⭐
-    
   </dt>
   <dd>
     <p>A minimalistic Jasmine test driver</p>
+    
     
   </dd>
 </dl>

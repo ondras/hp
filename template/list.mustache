@@ -3,11 +3,11 @@
   <dt>
     {{#html_url}}<a href="{{.}}">{{/html_url}}{{name}}{{#html_url}}</a>{{/html_url}}
     {{#stargazers_count}}{{.}}⭐{{/stargazers_count}}
-    {{#homepage}} <a class="try" href="{{.}}">Try it online</a> {{/homepage}}
   </dt>
   <dd>
     <p>{{description}}</p>
-    {{#topics}} <span class="topic">{{.}}</span> {{/topics}}
+    {{#topics}} <span class="tag topic">{{.}}</span> {{/topics}}
+    {{#homepage}} <a class="tag try" href="{{.}}">Try it</a> {{/homepage}}
   </dd>
 {{/.}}
 </dl>
