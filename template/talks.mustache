@@ -3,8 +3,13 @@
 
   <dl>
   {{#talks}}
-    <dt> {{name}} </dt>
-    <dd></dd>
+    <dt>
+      <a href="{{url}}">{{name}}</a>
+    </dt>
+    <dd>
+      <p>{{description}}</p>
+      {{#topics}} <span class="tag topic">{{.}}</span> {{/topics}}
+    </dd>
   {{/talks}}
   </dl>
 {{/.}}

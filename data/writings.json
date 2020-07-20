@@ -1,0 +1,15 @@
+[
+	{"url":"/romantika/", "name":"Nelehká na lodi romantika", "description":"Czech poem about sea. And a ship. And people. And love. And so on."},
+	{"url":"/fotc/petrov.html", "name":"Petrov, Jeljena a já", "description":"Another attempt to translate a song by Flight of the Conchords to my native language."},
+	{"url":"http://www.zdrojak.cz/clanky/firebase-kratke-seznameni/", "name":"Firebase: krátké seznámení", "description":"Introductory article about Firebase and its JS API"},
+	{"url":"/fotc/dicks.html", "name":"Moc kolíků na parketu", "description":"An attempt to translate a song by Flight of the Conchords to my native language."},
+	{"url":"https://www.zdrojak.cz/clanky/dom-udalosti-co-o-nich-mozna-nevite/", "name":"DOM události: co o nich možná nevíte", "description":"Less-known properties and features of DOM events for advanced frontend developers."},
+	{"url":"https://docs.google.com/spreadsheet/ccc?key=0Arh5AbqXfUQpdDhEYXRld1JVX01zbXhwTDVOc0F0MGc", "name":"JSConf.eu 2013", "description":"List of talks, slides, youtube links."},
+	{"url":"https://www.zdrojak.cz/serialy/zaciname-s-webgl/", "name":"Začínáme s WebGL", "description":"A series of a WebGL-related introductory articles."},
+	{"url":"https://docs.google.com/document/d/1Pfj9qtl_LI1_OOCT26ycPdNQW4TWrmQv-eMyvG3cTR0", "name":"JS MVC", "description":"My critical opinions regarding JS MVC frameworks. Written in Czech language."},
+	{"url":"https://docs.google.com/spreadsheet/ccc?key=0Arh5AbqXfUQpdHMxNklzOXM1QVlWV3FUbHpPOVdqOUE", "name":"Rums", "description":"Various rums I tasted, categorized and rated."},
+	{"url":"https://docs.google.com/spreadsheet/ccc?key=0Arh5AbqXfUQpdGRfNzZtUnkxamRPWkZSdERMZmRUanc", "name":"Comics", "description":"Well-organized online comics I read."},
+	{"url":"https://docs.google.com/spreadsheet/ccc?key=0Arh5AbqXfUQpdEF3M1RBaWhoLTRoOTYwUXZrd1lvYmc", "name":"Android games", "description":"List of Android games I played (+ their rating)."},
+	{"url":"https://docs.google.com/document/d/1-t1_A7CSKXWIu4EOrIS-AKxXGwJOV1wExVns5tQMfcE", "name":"Plain JS", "description":"What can you do in plain JavaScript?"},
+	{"url":"https://docs.google.com/spreadsheet/ccc?key=0Arh5AbqXfUQpdC1GbG5EcGlraHBBWW8zNDhmZURvZUE", "name":"JSConf.eu 2012", "description":"List of talks, slides, youtube links."}
+]

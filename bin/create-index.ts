@@ -16,7 +16,7 @@ const data = {
 };
 const partials: Record<string, string> = {};
 
-["games", "utils", "old", "projects", "talks"].forEach(name => {
+["games", "utils", "old", "projects", "talks", "writings"].forEach(name => {
 	partials[name] = readFile(`build/${name}.partial`);
 });
 

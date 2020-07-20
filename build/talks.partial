@@ -1,12 +1,401 @@
-  <h3> 2020 </h3>
-
-  <dl>
-    <dt> AAA </dt>
-    <dd></dd>
-    <dt> BBB </dt>
-    <dd></dd>
-  </dl>
   <h3> 2019 </h3>
 
   <dl>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2019&#x2F;devel&#x2F;">Pravý význam zkratky IoT</a>
+    </dt>
+    <dd>
+      <p>devel.cz 2019</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2019&#x2F;codecon&#x2F;">Pravý význam zkratky IoT</a>
+    </dt>
+    <dd>
+      <p>CodeCon.sk 2019</p>
+      
+    </dd>
+  </dl>
+  <h3> 2018 </h3>
+
+  <dl>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2018&#x2F;viennajs-async-await&#x2F;">async&#x2F;await</a>
+    </dt>
+    <dd>
+      <p>ViennaJS</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2018&#x2F;zlin-es6&#x2F;">Co nového u JavaScriptu (ES2015+)</a>
+    </dt>
+    <dd>
+      <p>madeo.com, Zlín</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2018&#x2F;praguejs-make&#x2F;">Technologie z minulého století (make)</a>
+    </dt>
+    <dd>
+      <p>PragueJS 10&#x2F;2018</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2018&#x2F;webexpo&#x2F;">WebGL in Easy Mode</a>
+    </dt>
+    <dd>
+      <p>WebExpo 2018</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2018&#x2F;devel&#x2F;">Co jste nevěděli o CSS</a>
+    </dt>
+    <dd>
+      <p>devel.cz 2018</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2018&#x2F;codecon-async-await&#x2F;">async&#x2F;await v praxi</a>
+    </dt>
+    <dd>
+      <p>CodeCon.sk 2018</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;2018&#x2F;async-await&#x2F;">async&#x2F;await v praxi</a>
+    </dt>
+    <dd>
+      <p>GDG ČVUT&#x2F;Prague</p>
+      
+    </dd>
+  </dl>
+  <h3> 2017 </h3>
+
+  <dl>
+    <dt>
+      <a href="&#x2F;slides&#x2F;webexpo2017&#x2F;">What&#39;s new in ES2017</a>
+    </dt>
+    <dd>
+      <p>WebExpo 2017</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;ctvrtkon2017&#x2F;">Věděli jste, že váš prohlížeč umí … ?</a>
+    </dt>
+    <dd>
+      <p>čtvrtkon.cz</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;devel2017&#x2F;">Koncepty a triky real-time her více hráčů</a>
+    </dt>
+    <dd>
+      <p>devel.cz 2017</p>
+      
+    </dd>
+  </dl>
+  <h3> 2016 </h3>
+
+  <dl>
+    <dt>
+      <a href="&#x2F;slides&#x2F;js-hard&#x2F;">JavaScript: The Hard Parts</a>
+    </dt>
+    <dd>
+      <p>GDG ČVUT</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;ngParty&#x2F;">Going functional with Vanilla JS</a>
+    </dt>
+    <dd>
+      <p>ngBigParty III</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;html-wa1&#x2F;">Jazyk HTML</a>
+    </dt>
+    <dd>
+      <p>ČVUT ZWA&#x2F;WA1</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;jihlava&#x2F;">ES 2015 &amp;ndash; Co nového u JavaScriptu</a>
+    </dt>
+    <dd>
+      <p>GDG Jihlava</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;devel2016&#x2F;">JavaScript a modularizace kódu</a>
+    </dt>
+    <dd>
+      <p>devel.cz 2016</p>
+      
+    </dd>
+  </dl>
+  <h3> 2015 </h3>
+
+  <dl>
+    <dt>
+      <a href="&#x2F;slides&#x2F;seznam-posezeni&#x2F;">JavaScript, vyvíjí se vůbec?</a>
+    </dt>
+    <dd>
+      <p>Posezení s vývojáři Seznam.cz</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;ctvrtkon&#x2F;">HTML5 a hry</a>
+    </dt>
+    <dd>
+      <p>čtvrtkon.cz</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;devel2015&#x2F;">Výkonné částicové systémy a WebGL</a>
+    </dt>
+    <dd>
+      <p>devel.cz 2015</p>
+      
+    </dd>
+  </dl>
+  <h3> 2014 </h3>
+
+  <dl>
+    <dt>
+      <a href="&#x2F;slides&#x2F;pano-vse&#x2F;">Panoramata na mapy.cz</a>
+    </dt>
+    <dd>
+      <p>VŠE Web Inkognito</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;http2&#x2F;">HTTP&#x2F;2</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;mapyapi-fimuni&#x2F;">Mapy API</a>
+    </dt>
+    <dd>
+      <p>FI MUNI</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;php-wa1&#x2F;">Jazyk PHP</a>
+    </dt>
+    <dd>
+      <p>ČVUT WA1</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;js-wa1&#x2F;">Skriptování na straně klienta</a>
+    </dt>
+    <dd>
+      <p>ČVUT WA1</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;mapyapi-vse&#x2F;">JavaScriptové API mapy.cz</a>
+    </dt>
+    <dd>
+      <p>VŠE Web Inkognito</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;jsrl&#x2F;">Roguelike development in JavaScript</a>
+    </dt>
+    <dd>
+      <p>IRDC 2014</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;jstriky&#x2F;">Méně známé JS tipy a triky</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+  </dl>
+  <h3> 2013 </h3>
+
+  <dl>
+    <dt>
+      <a href="&#x2F;slides&#x2F;websocket&#x2F;">WebSocket: Provařené i méně známé partie</a>
+    </dt>
+    <dd>
+      <p>devel.cz 2013&lt;sup&gt;2&lt;&#x2F;sup&gt;</p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;html5-roguelike&#x2F;">HTML5 a Roguelike hry</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;balast&#x2F;">JS knihovny a další balast v roce 2013</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;mapyapi-2&#x2F;">Mapy API známé i neznámé</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;webmasters&#x2F;">Lopaty, krumpáče a kladiva</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;jit&#x2F;">JIT Compilation</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;promises&#x2F;">JS Promises</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="&#x2F;slides&#x2F;barcamp&#x2F;">Cross-browser v roce 2013</a>
+    </dt>
+    <dd>
+      <p>Barcamp Praha 2013</p>
+      
+    </dd>
+    <dt>
+      <a href="https:&#x2F;&#x2F;seznam.github.io&#x2F;CVUT&#x2F;KAJ&#x2F;">Předmět &quot;Tvorba klientských aplikací v JavaScriptu&quot;</a>
+    </dt>
+    <dd>
+      <p>FEL ČVUT</p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;mapy&#x2F;">Souřadnice, projekce a šikmé snímky</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+  </dl>
+  <h3> 2012 </h3>
+
+  <dl>
+    <dt>
+      <a href="slides&#x2F;html5-praxe&#x2F;">HTML5 a CSS3 v praxi</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;dvcs&#x2F;">Distribuované verzovací systémy a Git</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;seznamden&#x2F;">Den s vývojáři &amp;ndash; komplexní JS aplikace</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;just-spaceships&#x2F;">Just Spaceships! &amp;ndash; development notes</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;html5-muni&#x2F;">HTML5</a>
+    </dt>
+    <dd>
+      <p>compressed into one talk</p>
+      
+    </dd>
+  </dl>
+  <h3> 2011 </h3>
+
+  <dl>
+    <dt>
+      <a href="slides&#x2F;mff&#x2F;">My job at Seznam.cz</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;mapyapi&#x2F;">Mapy.cz API</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;html5-grafici&#x2F;">HTML5 for Web Designers</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;html5&#x2F;">HTML5</a>
+    </dt>
+    <dd>
+      <p>set of four talks</p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;ajax&#x2F;">AJAX</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+  </dl>
+  <h3> 2010 </h3>
+
+  <dl>
+    <dt>
+      <a href="slides&#x2F;js-seznam&#x2F;">JavaScript &amp;amp; Seznam.cz</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+    <dt>
+      <a href="slides&#x2F;js-advanced&#x2F;">Advanced JavaScript topics</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
+  </dl>
+  <h3> 2008 </h3>
+
+  <dl>
+    <dt>
+      <a href="slides&#x2F;js&#x2F;">JavaScript introduction</a>
+    </dt>
+    <dd>
+      <p></p>
+      
+    </dd>
   </dl>

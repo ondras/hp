@@ -1,7 +1,16 @@
 <dl>
   <dt>
+    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;firecommander">firecommander</a>
+    (JavaScript, 2⭐)
+  </dt>
+  <dd>
+    <p>Two-pane file manager</p>
+     <span class="tag topic">Desktop App</span> 
+     <a class="tag try" href="https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-us&#x2F;firefox&#x2F;addon&#x2F;fire-commander&#x2F;">Try it</a> 
+  </dd>
+  <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;smon">smon</a>
-    7⭐
+    (JavaScript, 7⭐)
   </dt>
   <dd>
     <p>simple service monitoring</p>
@@ -10,7 +19,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;TeaJS">TeaJS</a>
-    27⭐
+    (C++, 27⭐)
   </dt>
   <dd>
     <p>Your daily cup of server-side Javascript.</p>
@@ -19,7 +28,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;elm-irc">elm-irc</a>
-    1⭐
+    (HTML, 1⭐)
   </dt>
   <dd>
     <p>Elm IRC client library</p>
@@ -28,7 +37,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;elm-slides">elm-slides</a>
-    11⭐
+    (JavaScript, 11⭐)
   </dt>
   <dd>
     <p>Slide deck system written in Elm</p>
@@ -37,7 +46,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;draw">draw</a>
-    4⭐
+    (JavaScript, 4⭐)
   </dt>
   <dd>
     <p>Drawing in multiplayer (server needed)</p>
@@ -46,7 +55,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;html5-animation-framework">html5-animation-framework</a>
-    3⭐
+    (JavaScript, 3⭐)
   </dt>
   <dd>
     <p>Google Code mirror</p>
@@ -55,7 +64,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;a-g-e">a-g-e</a>
-    
+    (JavaScript)
   </dt>
   <dd>
     <p>JS-based engine for displaying simple textual adventure games.</p>
@@ -64,7 +73,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;photo">photo</a>
-    11⭐
+    (JavaScript, 11⭐)
   </dt>
   <dd>
     <p>Web Workers used to process photos</p>
@@ -73,7 +82,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;hash">hash</a>
-    3⭐
+    (JavaScript, 3⭐)
   </dt>
   <dd>
     <p>Mozilla DevDerby Demo</p>
@@ -82,7 +91,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;syntax">syntax</a>
-    1⭐
+    (JavaScript, 1⭐)
   </dt>
   <dd>
     <p>RE-based syntax highlighter, implemented in Javascript.</p>
@@ -91,7 +100,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;zombie">zombie</a>
-    2⭐
+    (JavaScript, 2⭐)
   </dt>
   <dd>
     <p>A minimalistic Jasmine test driver</p>

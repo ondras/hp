@@ -7,7 +7,7 @@ TEMPLATE := template
 DENO := ~/deno/deno
 REPOS := $(DATA)/repos.json
 REPO_COMPONENTS := games utils old projects
-COMPONENTS := $(REPO_COMPONENTS) talks
+COMPONENTS := $(REPO_COMPONENTS) talks writings
 
 PARTIALS := $(COMPONENTS:%=$(BUILD)/%.partial)
 
@@ -20,7 +20,7 @@ $(BUILD)/%.partial: $(DATA)/%.json $(TEMPLATE)/%.mustache | $(BUILD)
 	cat $< | $(DENO) run --allow-read $(BIN)/create-partial.ts $(TEMPLATE)/$*.mustache > $@
 
 # data sources
-$(DATA)/talks.json:
+$(DATA)/talks.json $(DATA)/writings.json:
 	# no-op, handcrafted
 
 $(DATA)/%.json: $(REPOS)

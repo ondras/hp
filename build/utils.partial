@@ -1,7 +1,7 @@
 <dl>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;emojimage">emojimage</a>
-    1⭐
+    (Shell, 1⭐)
   </dt>
   <dd>
     <p>Create SVG images&#x2F;favicons from emoji</p>
@@ -10,7 +10,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;dotfiles">dotfiles</a>
-    
+    (Shell)
   </dt>
   <dd>
     <p></p>
@@ -19,7 +19,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;wsl">wsl</a>
-    
+    (Shell)
   </dt>
   <dd>
     <p>WSL2 utilities</p>
@@ -28,7 +28,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;ahk">ahk</a>
-    1⭐
+    (AutoHotkey, 1⭐)
   </dt>
   <dd>
     <p>Collection of AutoHotkey scripts that I use.</p>
@@ -37,7 +37,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;backup">backup</a>
-    
+    (Shell)
   </dt>
   <dd>
     <p>Wasabi+Duplicity</p>
@@ -46,7 +46,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;browsershot">browsershot</a>
-    41⭐
+    (JavaScript, 41⭐)
   </dt>
   <dd>
     <p>getDisplayMedia screenshots</p>
@@ -55,7 +55,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rnotify">rnotify</a>
-    3⭐
+    (Python, 3⭐)
   </dt>
   <dd>
     <p>Forwarding remote notifications to a local machine</p>

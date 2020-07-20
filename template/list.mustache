@@ -1,8 +1,8 @@
 <dl>
 {{#.}}
   <dt>
-    {{#html_url}}<a href="{{.}}">{{/html_url}}{{name}}{{#html_url}}</a>{{/html_url}}
-    {{#stargazers_count}}{{.}}⭐{{/stargazers_count}}
+    <a href="{{html_url}}">{{name}}</a>
+    ({{language}}{{#stargazers_count}}, {{.}}⭐{{/stargazers_count}})
   </dt>
   <dd>
     <p>{{description}}</p>

@@ -1,9 +1,96 @@
 [{
-	"year":"2020", "talks": [
-		{"name": "AAA", "topics":["a", "b", "c"]},
-		{"name": "BBB", "topics":["a", "b", "c"]}
+	"year":"2019",
+	"talks": [
+		{"url": "/slides/2019/devel/", "name": "Pravý význam zkratky IoT", "description": "devel.cz 2019"},
+		{"url": "/slides/2019/codecon/", "name": "Pravý význam zkratky IoT", "description": "CodeCon.sk 2019"}
 	]
 }, {
-	"year":"2019", "talks": [
+	"year":"2018",
+	"talks": [
+		{"url": "/slides/2018/viennajs-async-await/", "name": "async/await", "description": "ViennaJS"},
+		{"url": "/slides/2018/zlin-es6/", "name": "Co nového u JavaScriptu (ES2015+)", "description": "madeo.com, Zlín"},
+		{"url": "/slides/2018/praguejs-make/", "name": "Technologie z minulého století (make)", "description": "PragueJS 10/2018"},
+		{"url": "/slides/2018/webexpo/", "name": "WebGL in Easy Mode", "description": "WebExpo 2018"},
+		{"url": "/slides/2018/devel/", "name": "Co jste nevěděli o CSS", "description": "devel.cz 2018"},
+		{"url": "/slides/2018/codecon-async-await/", "name": "async/await v praxi", "description": "CodeCon.sk 2018"},
+		{"url": "/slides/2018/async-await/", "name": "async/await v praxi", "description": "GDG ČVUT/Prague"}
+	]
+}, {
+	"year":"2017",
+	"talks": [
+		{"url": "/slides/webexpo2017/", "name": "What's new in ES2017", "description": "WebExpo 2017"},
+		{"url": "/slides/ctvrtkon2017/", "name": "Věděli jste, že váš prohlížeč umí … ?", "description": "čtvrtkon.cz"},
+		{"url": "/slides/devel2017/", "name": "Koncepty a triky real-time her více hráčů", "description": "devel.cz 2017"}
+	]
+}, {
+	"year":"2016",
+	"talks": [
+		{"url": "/slides/js-hard/", "name": "JavaScript: The Hard Parts", "description": "GDG ČVUT"},
+		{"url": "/slides/ngParty/", "name": "Going functional with Vanilla JS", "description": "ngBigParty III"},
+		{"url": "/slides/html-wa1/", "name": "Jazyk HTML", "description": "ČVUT ZWA/WA1"},
+		{"url": "/slides/jihlava/", "name": "ES 2015 &ndash; Co nového u JavaScriptu", "description": "GDG Jihlava"},
+		{"url": "/slides/devel2016/", "name": "JavaScript a modularizace kódu", "description": "devel.cz 2016"}
+	]
+}, {
+	"year":"2015",
+	"talks": [
+		{"url": "/slides/seznam-posezeni/", "name": "JavaScript, vyvíjí se vůbec?", "description": "Posezení s vývojáři Seznam.cz"},
+		{"url": "/slides/ctvrtkon/", "name": "HTML5 a hry", "description": "čtvrtkon.cz"},
+		{"url": "/slides/devel2015/", "name": "Výkonné částicové systémy a WebGL", "description": "devel.cz 2015"}
+	]
+}, {
+	"year":"2014",
+	"talks": [
+		{"url": "/slides/pano-vse/", "name": "Panoramata na mapy.cz", "description": "VŠE Web Inkognito"},
+		{"url": "/slides/http2/", "name": "HTTP/2", "description": ""},
+		{"url": "/slides/mapyapi-fimuni/", "name": "Mapy API", "description": "FI MUNI"},
+		{"url": "/slides/php-wa1/", "name": "Jazyk PHP", "description": "ČVUT WA1"},
+		{"url": "/slides/js-wa1/", "name": "Skriptování na straně klienta", "description": "ČVUT WA1"},
+		{"url": "/slides/mapyapi-vse/", "name": "JavaScriptové API mapy.cz", "description": "VŠE Web Inkognito"},
+		{"url": "/slides/jsrl/", "name": "Roguelike development in JavaScript", "description": "IRDC 2014"},
+		{"url": "/slides/jstriky/", "name": "Méně známé JS tipy a triky", "description": ""}
+	]
+}, {
+	"year":"2013",
+	"talks": [
+		{"url": "/slides/websocket/", "name": "WebSocket: Provařené i méně známé partie", "description": "devel.cz 2013<sup>2</sup>"},
+		{"url": "/slides/html5-roguelike/", "name": "HTML5 a Roguelike hry", "description": ""},
+		{"url": "/slides/balast/", "name": "JS knihovny a další balast v roce 2013", "description": ""},
+		{"url": "/slides/mapyapi-2/", "name": "Mapy API známé i neznámé", "description": ""},
+		{"url": "/slides/webmasters/", "name": "Lopaty, krumpáče a kladiva", "description": ""},
+		{"url": "/slides/jit/", "name": "JIT Compilation", "description": ""},
+		{"url": "/slides/promises/", "name": "JS Promises", "description": ""},
+		{"url": "/slides/barcamp/", "name": "Cross-browser v roce 2013", "description": "Barcamp Praha 2013"},
+		{"url": "https://seznam.github.io/CVUT/KAJ/", "name": "Předmět \"Tvorba klientských aplikací v JavaScriptu\"", "description": "FEL ČVUT"},
+		{"url": "slides/mapy/", "name": "Souřadnice, projekce a šikmé snímky", "description": ""}
+	]
+}, {
+	"year":"2012",
+	"talks": [
+		{"url": "slides/html5-praxe/", "name": "HTML5 a CSS3 v praxi", "description": ""},
+		{"url": "slides/dvcs/", "name": "Distribuované verzovací systémy a Git", "description": ""},
+		{"url": "slides/seznamden/", "name": "Den s vývojáři &ndash; komplexní JS aplikace", "description": ""},
+		{"url": "slides/just-spaceships/", "name": "Just Spaceships! &ndash; development notes", "description": ""},
+		{"url": "slides/html5-muni/", "name": "HTML5", "description": "compressed into one talk"}
+	]
+}, {
+	"year":"2011",
+	"talks": [
+		{"url": "slides/mff/", "name": "My job at Seznam.cz", "description": ""},
+		{"url": "slides/mapyapi/", "name": "Mapy.cz API", "description": ""},
+		{"url": "slides/html5-grafici/", "name": "HTML5 for Web Designers", "description": ""},
+		{"url": "slides/html5/", "name": "HTML5", "description": "set of four talks"},
+		{"url": "slides/ajax/", "name": "AJAX", "description": ""}
+	]
+}, {
+	"year":"2010",
+	"talks": [
+		{"url": "slides/js-seznam/", "name": "JavaScript &amp; Seznam.cz", "description": ""},
+		{"url": "slides/js-advanced/", "name": "Advanced JavaScript topics", "description": ""}
+	]
+}, {
+	"year":"2008",
+	"talks": [
+		{"url": "slides/js/", "name": "JavaScript introduction", "description": ""}
 	]
 }]
