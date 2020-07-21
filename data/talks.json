@@ -28,7 +28,7 @@
 		{"url": "/slides/js-hard/", "name": "JavaScript: The Hard Parts", "description": "GDG ČVUT"},
 		{"url": "/slides/ngParty/", "name": "Going functional with Vanilla JS", "description": "ngBigParty III"},
 		{"url": "/slides/html-wa1/", "name": "Jazyk HTML", "description": "ČVUT ZWA/WA1"},
-		{"url": "/slides/jihlava/", "name": "ES 2015 &ndash; Co nového u JavaScriptu", "description": "GDG Jihlava"},
+		{"url": "/slides/jihlava/", "name": "ES 2015 – Co nového u JavaScriptu", "description": "GDG Jihlava"},
 		{"url": "/slides/devel2016/", "name": "JavaScript a modularizace kódu", "description": "devel.cz 2016"}
 	]
 }, {
@@ -53,7 +53,7 @@
 }, {
 	"year":"2013",
 	"talks": [
-		{"url": "/slides/websocket/", "name": "WebSocket: Provařené i méně známé partie", "description": "devel.cz 2013<sup>2</sup>"},
+		{"url": "/slides/websocket/", "name": "WebSocket: Provařené i méně známé partie", "description": "devel.cz 2013²"},
 		{"url": "/slides/html5-roguelike/", "name": "HTML5 a Roguelike hry", "description": ""},
 		{"url": "/slides/balast/", "name": "JS knihovny a další balast v roce 2013", "description": ""},
 		{"url": "/slides/mapyapi-2/", "name": "Mapy API známé i neznámé", "description": ""},
@@ -69,8 +69,8 @@
 	"talks": [
 		{"url": "slides/html5-praxe/", "name": "HTML5 a CSS3 v praxi", "description": ""},
 		{"url": "slides/dvcs/", "name": "Distribuované verzovací systémy a Git", "description": ""},
-		{"url": "slides/seznamden/", "name": "Den s vývojáři &ndash; komplexní JS aplikace", "description": ""},
-		{"url": "slides/just-spaceships/", "name": "Just Spaceships! &ndash; development notes", "description": ""},
+		{"url": "slides/seznamden/", "name": "Den s vývojáři – komplexní JS aplikace", "description": ""},
+		{"url": "slides/just-spaceships/", "name": "Just Spaceships! – development notes", "description": ""},
 		{"url": "slides/html5-muni/", "name": "HTML5", "description": "compressed into one talk"}
 	]
 }, {
@@ -85,7 +85,7 @@
 }, {
 	"year":"2010",
 	"talks": [
-		{"url": "slides/js-seznam/", "name": "JavaScript &amp; Seznam.cz", "description": ""},
+		{"url": "slides/js-seznam/", "name": "JavaScript & Seznam.cz", "description": ""},
 		{"url": "slides/js-advanced/", "name": "Advanced JavaScript topics", "description": ""}
 	]
 }, {

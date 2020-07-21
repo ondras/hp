@@ -33,6 +33,11 @@ a:not(:hover):not(:focus) {
 	text-decoration-color: #aaa;
 }
 
+main img {
+	border-radius: 8px;
+	float: right;
+}
+
 .topic-missing, .topic-missing + dd { display: none; }
 
 .tag {
@@ -61,4 +66,3 @@ a:not(:hover):not(:focus) {
 .topic.current {
 	font-weight: bold;
 }
-

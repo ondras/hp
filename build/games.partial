@@ -10,7 +10,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;rubik">rubik</a>
-    (JavaScript, 2⭐)
+    (JavaScript, 3⭐)
   </dt>
   <dd>
     <p>CSS Rubik&#39;s Cube</p>
@@ -23,7 +23,7 @@
   </dt>
   <dd>
     <p>Railroad Ink</p>
-    
+     <span class="tag topic">Deno</span>  <span class="tag topic">WebSocket</span> 
      <a class="tag try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;rri&#x2F;">Try it</a> 
   </dd>
   <dt>

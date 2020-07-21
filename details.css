@@ -2,7 +2,7 @@ details {
 	margin-bottom: 1em;
 }
 
-details p, details dl, details h3 {
+details > * {
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -25,7 +25,7 @@ summary ~ * {
 	padding-left: 1rem;
 }
 
-dt {
+dt, li a {
 	font-weight: bold;
 }
 
@@ -37,9 +37,18 @@ dd {
 }
 
 dd p {
+	margin: 0;
 	flex: auto;
 }
 
 dd + dt {
 	margin-top: 1em;
+}
+
+ul {
+	padding-left: 3em;
+}
+
+ul + h3 {
+	padding-top: 1em;
 }

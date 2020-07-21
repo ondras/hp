@@ -8,51 +8,51 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>Ondřej Žára &ndash; Homepage</title>
 		<link rel="stylesheet" href="style.css" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" />
+		<link rel="stylesheet" href="https://use.typekit.net/gpe0gkq.css" />
 		<link rel="stylesheet" href="../hp.css" />
 	</head>
 
 	<body>
 		<h1>Ondřej Žára</h1>
 
-		<section>
+		<main>
 			<h2>About</h2>
-			<img src="img/oz.jpg" alt="portrait" />
+			<img src="../oz-small.jpg" alt="portrait" width="220" height="302" />
 			<p>
 				JavaScript developer, living in Prague, Czech Republic. Currently employed by <a href="https://www.seznam.cz/">Seznam.cz</a>.
+				My <a href="cv/">résumé</a> is available online, though I am currently not looking for a job. You can also see an
+				automatically generated <a href="http://resume.github.com/?ondras">GitHub résumé</a>.
 			</p>
 			<p>
 				Get in touch:
-				<a href="cv/">Résumé</a> •
-				<a href="http://resume.github.com/?ondras">GitHub résumé</a> •
 				<a href="mailto:ondras@zarovi.cz">E-mail</a></li> •
 				<a rel="me" href="https://github.com/ondras/">GitHub</a></li> •
 				<a rel="me" href="http://twitter.com/0ndras">Twitter</a></li> •
 				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3340079">PayPal</a></li>
 			</p>
-		</section>
+		</main>
 
 		<details id="games" open>
 			<summary>Games</summary>
-			<p>Written in JS, playable in browser</p>
+			<p>Written mostly in JS and therefore playable in your web browser. With a particular focus at the <a href="https://en.wikipedia.org/wiki/Roguelike">Roguelike</a> genre.</p>
 			{{>games}}
 		</details>
 
 		<details id="projects" open>
 			<summary>Projects</summary>
-			<p>Larger non-gaming stuff, mostly JS</p>
+			<p>Larger-scale projects, some serious, some absolutely not. Also smaller toys and experiments.</p>
 			{{>projects}}
 		</details>
 
 		<details id="utils" open>
 			<summary>Utilities</summary>
-			<p>Smaller non-gaming stuff, mostly JS</p>
+			<p>Dotfiles, scripting utils, miscellaneous stuff.</p>
 			{{>utils}}
 		</details>
 
 		<details id="talks" open>
 			<summary>Talks</summary>
-			<p>List of recently given presentations</p>
+			<p>List of recently given presentations, grouped by a year.</p>
 			{{>talks}}
 		</details>
 
@@ -64,7 +64,7 @@
 
 		<details id="old" open>
 			<summary>Old stuff</summary>
-			<p>Old, obsoleted and generally non-functional stuff</p>
+			<p>Old, obsoleted and generally non-functional stuff. Some of these were superseded by newer projects, some just lost their impetus.</p>
 			{{>old}}
 		</details>
 
@@ -75,7 +75,7 @@
 				<li><a href="#utils">Utilities</a></li>
 				<li><a href="#talks">Talks</a></li>
 				<li><a href="#writings">Writings</a></li>
-				<li><a href="#old">Old projects</a></li>
+				<li><a href="#old">Old stuff</a></li>
 			</ul>
 		</nav>
 

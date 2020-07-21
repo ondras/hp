@@ -1,5 +1,14 @@
 <dl>
   <dt>
+    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cyp">cyp</a>
+    (JavaScript, 59⭐)
+  </dt>
+  <dd>
+    <p>Control Your Player: a Web-based MPD client</p>
+     <span class="tag topic">Web App</span> 
+    
+  </dd>
+  <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;arduino">arduino</a>
     (C++, 2⭐)
   </dt>
@@ -16,15 +25,6 @@
     <p>ROguelike Toolkit in JavaScript</p>
      <span class="tag topic">Library</span>  <span class="tag topic">Roguelike</span> 
      <a class="tag try" href="https:&#x2F;&#x2F;ondras.github.io&#x2F;rot.js&#x2F;hp&#x2F;">Try it</a> 
-  </dd>
-  <dt>
-    <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cyp">cyp</a>
-    (JavaScript, 59⭐)
-  </dt>
-  <dd>
-    <p>Control Your Player: a Web-based MPD client</p>
-     <span class="tag topic">Web App</span> 
-    
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;cookie-roller">cookie-roller</a>
@@ -118,7 +118,7 @@
   </dd>
   <dt>
     <a href="https:&#x2F;&#x2F;github.com&#x2F;ondras&#x2F;my-mind">my-mind</a>
-    (JavaScript, 2451⭐)
+    (JavaScript, 2453⭐)
   </dt>
   <dd>
     <p>Online Mindmapping Software</p>

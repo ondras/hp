@@ -1,15 +1,11 @@
 {{#.}}
-  <h3> {{year}} </h3>
-
-  <dl>
-  {{#talks}}
-    <dt>
-      <a href="{{url}}">{{name}}</a>
-    </dt>
-    <dd>
-      <p>{{description}}</p>
-      {{#topics}} <span class="tag topic">{{.}}</span> {{/topics}}
-    </dd>
-  {{/talks}}
-  </dl>
+	<h3> {{year}} </h3>
+	<ul>
+	{{#talks}}
+	<li>
+		<a href="{{url}}">{{name}}</a>
+		{{#description}}({{.}}){{/description}}
+	</li>
+	{{/talks}}
+	</ul>
 {{/.}}
