@@ -1,0 +1,41 @@
+h1, nav { order: -1; }
+
+nav {
+	position: sticky;
+	top: 0;
+	box-shadow: 0 3px 5px -3px #000;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	flex: 1 1 0;
+}
+
+nav a {
+	display: block;
+	padding: 1em 0;
+	text-align: center;
+}
+
+[href="#games"] { background-color: rgb(26, 44, 54); }
+[href="#projects"] { background-color: rgb(101, 120, 130); }
+[href="#utils"] { background-color: rgb(94, 135, 0); }
+[href="#talks"] { background-color: rgb(186, 156, 0); }
+[href="#writings"] { background-color: rgb(201, 81, 0); }
+[href="#old"] { background-color: rgb(173, 0, 15); }
+
+#games:target ~ nav [href="#games"],
+#projects:target ~ nav [href="#projects"],
+#utils:target ~ nav [href="#utils"],
+#talks:target ~ nav [href="#talks"],
+#writings:target ~ nav [href="#writings"],
+#old:target ~ nav [href="#old"] {
+	font-weight: bold;
+	text-decoration: none;
+}

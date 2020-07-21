@@ -1,3 +1,6 @@
+@import "nav.css";
+@import "details.css";
+
 * {
 	transition: all 300ms;
 }
@@ -21,10 +24,6 @@ body {
 	text-shadow: 1px 1px 1px #000;
 }
 
-h1, nav {
-	order: -1;
-}
-
 a {
 	color: inherit;
 	text-decoration-thickness: 1px;
@@ -32,49 +31,6 @@ a {
 
 a:not(:hover):not(:focus) {
 	text-decoration-color: #aaa;
-}
-
-dl, p, h3 {
-	margin: 0;
-}
-
-details::before {
-	content: "";
-	display: block;
-	--nav-height: calc((2 + 1*var(--lh)) * 1rem);
-	height: var(--nav-height);
-	margin-top: calc(-1 * var(--nav-height));
-
-}
-
-summary {
-	font-size: 150%;
-	font-weight: bold;
-	padding: 0.5em 0;
-}
-
-summary ~ * {
-	border-left: 3px solid rgba(255, 255, 255, 0.2);
-	padding-left: 1em;
-}
-
-dt {
-	font-weight: bold;
-}
-
-dd {
-	margin-top: 0.33em;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-}
-
-dd p {
-	flex: auto;
-}
-
-dd + dt {
-	margin-top: 1em;
 }
 
 .topic-missing, .topic-missing + dd { display: none; }
@@ -97,7 +53,7 @@ dd + dt {
 	border-color: black;
 }
 
-a.try {
+.try {
 	background-color: yellow;
 	text-decoration: none;
 }
@@ -106,42 +62,3 @@ a.try {
 	font-weight: bold;
 }
 
-nav {
-	position: sticky;
-	top: 0;
-	box-shadow: 0 3px 5px -3px #000;
-}
-
-nav ul {
-	display: flex;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav li {
-	flex: 1 1 0;
-}
-
-nav a {
-	display: block;
-	padding: 1em 0;
-	text-align: center;
-}
-
-[href="#games"] { background-color: rgb(26, 44, 54); }
-[href="#projects"] { background-color: rgb(101, 120, 130); }
-[href="#utils"] { background-color: rgb(94, 135, 0); }
-[href="#talks"] { background-color: rgb(186, 156, 0); }
-[href="#writings"] { background-color: rgb(201, 81, 0); }
-[href="#old"] { background-color: rgb(173, 0, 15); }
-
-#games:target ~ nav [href="#games"],
-#projects:target ~ nav [href="#projects"],
-#utils:target ~ nav [href="#utils"],
-#talks:target ~ nav [href="#talks"],
-#writings:target ~ nav [href="#writings"],
-#old:target ~ nav [href="#old"] {
-	font-weight: bold;
-	text-decoration: none;
-}
