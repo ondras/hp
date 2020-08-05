@@ -1,8 +1,8 @@
 @import "nav.css";
 @import "details.css";
 
-* {
-	transition: all 300ms;
+*, *::before, *::after {
+	box-sizing: inherit;
 }
 
 html {
@@ -22,11 +22,17 @@ body {
 	line-height: var(--lh);
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
+	box-sizing: border-box;
+}
+
+h2 {
+	margin-bottom: 0.5em;
 }
 
 a {
 	color: inherit;
 	text-decoration-thickness: 1px;
+	transition: all 300ms;
 }
 
 a:not(:hover):not(:focus) {

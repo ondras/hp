@@ -1,5 +1,6 @@
 details {
-	margin-bottom: 1em;
+	--nav-height: calc((2 + var(--lh)) * 1rem);
+	scroll-margin-top: var(--nav-height);
 }
 
 details > * {
@@ -12,16 +13,26 @@ details > p {
 	padding-bottom: 1em;
 }
 
-summary {
-	font-size: 144.44%;
-	font-weight: bold;
-	--nav-height: calc((2 + var(--lh)) * 1rem);
-	line-height: var(--nav-height);
+summary { list-style: none; }
+summary::-webkit-details-marker { display: none; }
+
+summary h2::before {
+	display: inline-block;
+	content: "▸";
+	margin-right: 1ch;
+	vertical-align: text-top;
+	transform-origin: 50% 62%;
+	transition: all 300ms;
+}
+
+details[open] h2::before {
+	transform: rotate(90deg);
+	text-shadow: 1px -1px 1px #000;
 }
 
 summary ~ * {
 	border-left: 3px solid rgba(255, 255, 255, 0.2);
-	margin-left: 0.333rem;
+	margin-left: 5px;
 	padding-left: 1rem;
 }
 
@@ -30,7 +41,7 @@ dt, li a {
 }
 
 dd {
-	margin-top: 0.333em;
+	margin-top: 6px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-end;
