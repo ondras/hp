@@ -11,6 +11,9 @@ html {
 }
 
 body {
+	--lh: 1.333;
+	--border: rgba(255, 255, 255, 0.2);
+
 	font-family: lato, sans-serif;
 	background-color: rgb(100,100,100);
 	margin: 0;
@@ -18,7 +21,6 @@ body {
 	flex-direction: column;
 	max-width: 800px;
 	margin: auto;
-	--lh: 1.333;
 	line-height: var(--lh);
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
@@ -42,6 +44,19 @@ a:not(:hover):not(:focus) {
 main img {
 	border-radius: 8px;
 	float: right;
+}
+
+footer {
+	margin-top: 3em;
+	border-top: 1px solid var(--border);
+	width: 80%;
+	align-self: center;
+	font-size: 88.888%;
+}
+
+footer p {
+	width: 80%;
+	text-align: center;
 }
 
 .topic-missing, .topic-missing + dd { display: none; }

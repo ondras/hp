@@ -31,7 +31,7 @@ details[open] h2::before {
 }
 
 summary ~ * {
-	border-left: 3px solid rgba(255, 255, 255, 0.2);
+	border-left: 3px solid var(--border);
 	margin-left: 5px;
 	padding-left: 1rem;
 }
