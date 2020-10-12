@@ -12,5 +12,6 @@
 	{"url":"https://docs.google.com/spreadsheet/ccc?key=0Arh5AbqXfUQpdEF3M1RBaWhoLTRoOTYwUXZrd1lvYmc", "name":"Android games", "description":"List of Android games I played (+ their rating)."},
 	{"url":"https://docs.google.com/document/d/1-t1_A7CSKXWIu4EOrIS-AKxXGwJOV1wExVns5tQMfcE", "name":"Plain JS", "description":"What can you do in plain JavaScript?"},
 	{"url":"https://docs.google.com/spreadsheet/ccc?key=0Arh5AbqXfUQpdC1GbG5EcGlraHBBWW8zNDhmZURvZUE", "name":"JSConf.eu 2012", "description":"List of talks, slides, youtube links."},
+	{"url":"https://ondras.github.io/js-like/algo/", "name":"Dungeon-related algorithms", "description":"Maze generation, FOV computation, turn scheduling."},
 	{"url":"/texty/compress/", "name":"Compression benchmarks", "description":"Trying to compress JSON with algorithms implemented in JS."}
 ]

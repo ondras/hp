@@ -2,7 +2,9 @@
 {{#.}}
   <dt>
     <a href="{{html_url}}">{{name}}</a>
-    ({{language}}{{#stargazers_count}}, {{.}}⭐{{/stargazers_count}})
+    {{#language}}
+      ({{language}}{{#stargazers_count}}, {{.}}⭐{{/stargazers_count}})
+    {{/language}}
   </dt>
   <dd>
     <p>{{description}}</p>

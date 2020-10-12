@@ -1,4 +1,11 @@
 [{
+	"year":"2020",
+	"talks": [
+		{"url": "/slides/2020/devstack-frontendisti/", "name": "DevStack vašich tatínků a maminek", "description": "Frontendisti"},
+		{"url": "/slides/2020/tm-zilina/", "name": "Radó, Kropitz a další zvířata", "description": "WebUP Žilina"},
+		{"url": "/slides/2020/tm-cvut/", "name": "Turingovy stroje", "description": "den otevřených dveří ČVUT FEL"}
+	]
+}, {
 	"year":"2019",
 	"talks": [
 		{"url": "/slides/2019/devel/", "name": "Pravý význam zkratky IoT", "description": "devel.cz 2019"},
