@@ -60,3 +60,13 @@ const str = JSON.stringify(filtered);
 Deno.stdout.writeSync(te.encode(str));
 
 Deno.stderr.writeSync(te.encode(`Fetched ${all.length} repos, wrote ${filtered.length}\n`));
+
+let topics = new Map<string, number>();
+filtered.forEach(repo => repo.topics.forEach(t => {
+	topics.set(t, (topics.get(t) || 0)+1);
+}));
+
+let counts: string[] = [];
+topics.forEach((count, topic) => counts.push(`${topic} (${count}x)`));
+
+Deno.stderr.writeSync(te.encode(`Topics encountered: ${counts.join(", ")}\n`));

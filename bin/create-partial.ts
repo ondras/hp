@@ -2,14 +2,10 @@ import { Repo } from "./repo.d.ts";
 import mustache from "https://unpkg.com/mustache@3.2.0/mustache.mjs";
 
 
-interface MightHaveTopics extends Record<string, any> {
-	topics?: string[];
-}
-
 const te = new TextEncoder();
 const td = new TextDecoder();
 
-const REMOVE_TOPICS = ["game", "util", "old", "hp-include"];
+const REMOVE_TOPICS = ["game", "util", "old", "hp-include", "hacktoberfest"];
 const TOPIC_NAMES: Record<string, string> = {
 	"7drl": "7DRL",
 	"webgl": "WebGL",
@@ -23,16 +19,9 @@ function translateTopic(t: string) {
 	return TOPIC_NAMES[t] || t.replace(/-/g, " ").split(" ").map(capitalize).join(" ");
 }
 
-function fixTopics(item: MightHaveTopics) {
-	for (let p in item) {
-		if (p == "topics") {
-			item[p] = (item[p] || [])
-				.filter(t => !REMOVE_TOPICS.includes(t))
-				.map(translateTopic);
-			continue;
-		}
-		let value = item[p];
-		if (typeof(value) == "object") { fixTopics(value); }
+function fixTopics(item: Repo) {
+	if (item.topics) {
+		item.topics = item.topics.filter(t => !REMOVE_TOPICS.includes(t)).map(translateTopic);
 	}
 }
 
@@ -40,7 +29,7 @@ if (Deno.args.length < 1) { throw new Error("Pass template name as an argument")
 
 const template = readFile(Deno.args[0]);
 const stdin = await Deno.readAll(Deno.stdin);
-const data: MightHaveTopics[] = JSON.parse(td.decode(stdin));
+const data: Repo[] = JSON.parse(td.decode(stdin));
 data.forEach(fixTopics);
 
 function readFile(name: string) {
