@@ -3,13 +3,13 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="description" content="Homepage of Ondřej Žára" />
-		<meta name="keywords" content="homepage ondrej zara cv" />
+		<meta name="keywords" content="homepage ondrej zara" />
 		<meta name="robots" content="index, follow" />
 		<meta name="viewport" content="width=device-width" />
 		<title>Ondřej Žára &ndash; Homepage</title>
-		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/gpe0gkq.css" />
-		<link rel="stylesheet" href="../hp.css" />
+		<link rel="stylesheet" href="/static/index.css" />
+		<link rel="icon" href="https://emojimage.toad.cz/👨‍💻" />
 	</head>
 
 	<body>
@@ -17,7 +17,7 @@
 
 		<main>
 			<h2>About</h2>
-			<img src="../oz-small.jpg" alt="portrait" width="220" height="302" />
+			<img src="../static/oz-small.jpg" alt="portrait" width="220" height="302" />
 			<p>
 				JavaScript developer, living in Prague, Czech Republic. Employed by <a href="https://www.seznam.cz/">Seznam.cz</a>.
 				My <a href="cv/">résumé</a> is available online, though I am currently not looking for a job. You can also see an
@@ -28,6 +28,7 @@
 				<a href="mailto:ondras@zarovi.cz">E-mail</a></li> •
 				<a rel="me" href="https://github.com/ondras/">GitHub</a></li> •
 				<a rel="me" href="https://twitter.com/0ndras">Twitter</a></li> •
+				<a rel="me" href="https://mastodon.technology/@ondras">Mastodon</a></li> •
 				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=3340079">PayPal</a></li>
 			</p>
 		</main>
@@ -79,7 +80,7 @@
 			</ul>
 		</nav>
 
-		<footer><p>This page was auto-generated on {{generated}}.</p></footer>
+		<footer><p>This page was <a href="https://github.com/ondras/hp-generator">auto-generated</a> on {{generated}}.</p></footer>
 
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -93,19 +94,18 @@
 			})();
 		</script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Ondřej Žára",
-  "image": "/img/oz.jpg",
-  "jobTitle": "JavaScript developer",
-  "address": "Prague, Czech Republic",
-  "affiliation": "https://www.seznam.cz/"
-}
-</script>
+		<script type="application/ld+json">
+		{
+		"@context": "https://schema.org",
+		"@type": "Person",
+		"name": "Ondřej Žára",
+		"image": "/img/oz.jpg",
+		"jobTitle": "JavaScript developer",
+		"address": "Prague, Czech Republic",
+		"affiliation": "https://www.seznam.cz/"
+		}
+		</script>
 
-	<script src="../hp.js"></script>
-
+		<script src="/static/index.js"></script>
 	</body>
 </html>

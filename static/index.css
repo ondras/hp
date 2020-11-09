@@ -28,7 +28,7 @@ body {
 }
 
 h2 {
-	margin-bottom: 0.5em;
+	margin: 0.5em 0;
 }
 
 a {
@@ -44,6 +44,7 @@ a:not(:hover):not(:focus) {
 main img {
 	border-radius: 8px;
 	float: right;
+	margin-left: 8px;
 }
 
 footer {
@@ -55,7 +56,6 @@ footer {
 }
 
 footer p {
-	width: 80%;
 	text-align: center;
 }
 
@@ -85,4 +85,11 @@ footer p {
 
 .topic.current {
 	font-weight: bold;
+}
+
+@media (max-width: 800px) {
+	body > *:not(nav) {
+		margin-left: 8px;
+		margin-right: 8px;
+	}
 }

@@ -1,5 +1,9 @@
 h1, nav { order: -1; }
 
+body {
+	--nav-height: calc((2 + var(--lh)) * 1rem);
+}
+
 nav {
 	position: sticky;
 	top: 0;
@@ -11,6 +15,7 @@ nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	flex-wrap: wrap;
 }
 
 nav li {
@@ -38,4 +43,14 @@ nav a {
 #old:target ~ nav [href="#old"] {
 	font-weight: bold;
 	text-decoration: none;
+}
+
+@media (max-width: 480px) {
+	nav li {
+		flex-basis: calc(100vw / 3);
+	}
+
+	body {
+		--nav-height: calc((2 + var(--lh)) * 2rem);
+	}
 }

@@ -1,5 +1,4 @@
 details {
-	--nav-height: calc((2 + var(--lh)) * 1rem);
 	scroll-margin-top: var(--nav-height);
 }
 
@@ -8,18 +7,13 @@ details > * {
 	margin-bottom: 0;
 }
 
-details > p {
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
-
 summary { list-style: none; }
 summary::-webkit-details-marker { display: none; }
 
 summary h2::before {
 	display: inline-block;
 	content: "▸";
-	margin-right: 1ch;
+	margin-right: 4px;
 	vertical-align: text-top;
 	transform-origin: 50% 62%;
 	transition: all 300ms;
@@ -32,8 +26,8 @@ details[open] h2::before {
 
 summary ~ * {
 	border-left: 3px solid var(--border);
-	margin-left: 5px;
-	padding-left: 1rem;
+	margin-left: 13px;
+	padding-left: 8px;
 }
 
 dt, li a {
@@ -52,14 +46,11 @@ dd p {
 	flex: auto;
 }
 
-dd + dt {
-	margin-top: 1em;
+dt {
+	padding-top: 1em;
 }
 
 ul {
 	padding-left: 3em;
-}
-
-ul + h3 {
-	padding-top: 1em;
+	padding-bottom: 1em;
 }

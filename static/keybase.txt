@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/ondras
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ondras.zarovi.cz
+  * I am ondras (https://keybase.io/ondras) on keybase.
+  * I have a public key with fingerprint A468 C769 548B 445E DC3E  9C34 364E 9944 6DB3 EA09
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010137a2aaaaaae73def9726e6cacfaed50fcedecbb0ffd148855247668f0f3746690a",
+            "fingerprint": "a468c769548b445edc3e9c34364e99446db3ea09",
+            "host": "keybase.io",
+            "key_id": "364e99446db3ea09",
+            "kid": "010137a2aaaaaae73def9726e6cacfaed50fcedecbb0ffd148855247668f0f3746690a",
+            "uid": "dae7c15b526472933dd5c17f6b90e519",
+            "username": "ondras"
+        },
+        "service": {
+            "hostname": "ondras.zarovi.cz",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1475914508,
+    "expire_in": 157680000,
+    "prev": "b01d895a99a9d767dcb8a649b8e9b5ecb37fdf003f3333b46d8caebd51a83e16",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMInAnicrVJrSBRRFF63h2iFJQhKRDQEiZjO7Ny5M7OFZBYRQf0wsbJY7p17Rwd1
+Z52Z3TIzKOxtS28qAh9BJWkgooIZ9NbUEsrevyRNy170owwqurPUj6CfnT+Xe873
+fec7h3N71hRPYhxce2ZFedvbhLj+G2fCnsLJyzOrOGySSs5fxZXS2EPLCLWdQKlB
+OD/HC7wgysiHYkFlkVBdlX2QQg1pOqJE4nWNEqphzOs6EYCiSJIPyBAqOq+LMoBQ
+5RGXyelGsJhaIcsIOkwWAahoMlQloGAAJEo0kaqaCEQIqKoCAAkWKeJVRiwxbZfB
+zGFk0yzDZDn2CcTs/QP/n32HY3KESWiChCUfBLJPFUVCJE2QdYhVnkqC2zdsUyuI
+yilDm0FiIZurzuRYLmJo1F2rO8df9aztyDIjRpa2nbFDlumYmlnGqiWOE7L9Ltup
+DLnwrRQHfgsFsBEkbJOMEaGWbZhBzi8wpOYYrrIAZEkVgMQrmRzdFjIsGjBchCRD
+hWfh9qERJol5gSiqhFQVqUSGMtGwgiBQsUJVLLGtiLJOdJ4XdZEFZvtVNEQxkQSk
+iFSAnDtaRdDk/JDZRMVM0jaKg8gJW5Srvnl981RPXKJn+jSve2GexITZf+4uYSL+
++4w9aaeGmq8tvj+ZO4zLDj2UR37m1jdn78r4WJl8cf2xaAMZuLp7jTgtb9PSA7To
+VtXOxm7xR9LCl6md4F1vW9PMoQsD66zFK+ty+gvacUvqg+fez+KPeclf1px6yt05
+t9d49Mp8v6WyYHj0YNn6JS+4N9aOld13j9f3rO4MDfsm6mo+LFee5PUV1Xwt/dpw
+MHdDxfy5ZGHGYP7I/pZv9WN145+Hkuc87t25r/ZYE6qJDuSf3jiYkFSbdvRsoZJr
+9x4GSnfy+YrWZR0nP7VHRpp2tZaPnyCr0i8dMPsWzP8SnzPD27GnK6Xnw5GP0ddj
+KeHGe4uyJ6sijte7v2u0Pi09+uzKL/5eSwY=
+=2zv4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ondras
+
+==================================================================
