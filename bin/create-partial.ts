@@ -39,5 +39,5 @@ function readFile(name: string) {
 	return td.decode(buffer);
 }
 
-const result = mustache.render(template, data);
+const result = (mustache as any).render(template, data);
 Deno.stdout.writeSync(te.encode(result));

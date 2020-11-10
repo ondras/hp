@@ -20,5 +20,5 @@ const partials: Record<string, string> = {};
 	partials[name] = readFile(`build/${name}.partial`);
 });
 
-const result = mustache.render(template, data, partials);
+const result = (mustache as any).render(template, data, partials);
 Deno.stdout.writeSync(te.encode(result));
