@@ -28,16 +28,11 @@ function fixTopics(item: Repo) {
 
 if (Deno.args.length < 1) { throw new Error("Pass template name as an argument"); }
 
-const template = readFile(Deno.args[0]);
+const template = Deno.readTextFileSync(Deno.args[0]);
 const stdin = await Deno.readAll(Deno.stdin);
 const data: Repo[] = JSON.parse(td.decode(stdin));
 data.sort(CMP);
 data.forEach(fixTopics);
-
-function readFile(name: string) {
-	const buffer = Deno.readFileSync(name);
-	return td.decode(buffer);
-}
 
 const result = (mustache as any).render(template, data);
 Deno.stdout.writeSync(te.encode(result));
