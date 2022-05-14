@@ -1,4 +1,5 @@
 [
+	{"url":"/texty/korona/", "name":"Doma s koronou", "description":"Pandemic version of 'Cotton fields'"},
 	{"url":"/texty/romantika/", "name":"Nelehká na lodi romantika", "description":"Czech poem about sea. And a ship. And people. And love. And so on."},
 	{"url":"/texty/fotc/petrov.html", "name":"Petrov, Jeljena a já", "description":"Another attempt to translate a song by Flight of the Conchords to my native language."},
 	{"url":"https://www.zdrojak.cz/clanky/firebase-kratke-seznameni/", "name":"Firebase: krátké seznámení", "description":"Introductory article about Firebase and its JS API"},
