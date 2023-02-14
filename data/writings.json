@@ -3,6 +3,7 @@
 	{"url":"/texty/korona/", "name":"Doma s koronou", "description":"Pandemic version of 'Cotton fields'"},
 	{"url":"/texty/romantika/", "name":"Nelehká na lodi romantika", "description":"Czech poem about sea. And a ship. And people. And love. And so on."},
 	{"url":"/texty/fotc/petrov.html", "name":"Petrov, Jeljena a já", "description":"Another attempt to translate a song by Flight of the Conchords to my native language."},
+	{"url":"/texty/banda-bukanyru/", "name":"Banda Bukanýrů", "description":"Rules for a game played at a summer camp (Czech)"},
 	{"url":"https://www.zdrojak.cz/clanky/firebase-kratke-seznameni/", "name":"Firebase: krátké seznámení", "description":"Introductory article about Firebase and its JS API"},
 	{"url":"/texty/fotc/dicks.html", "name":"Moc kolíků na parketu", "description":"An attempt to translate a song by Flight of the Conchords to my native language."},
 	{"url":"https://www.zdrojak.cz/clanky/dom-udalosti-co-o-nich-mozna-nevite/", "name":"DOM události: co o nich možná nevíte", "description":"Less-known properties and features of DOM events for advanced frontend developers."},
