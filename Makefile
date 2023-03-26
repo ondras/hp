@@ -4,7 +4,7 @@ BUILD := build
 DATA := data
 TEMPLATE := template
 
-DENO := deno
+DENO := ~/deno/deno
 REPOS := $(DATA)/repos.json
 REPO_COMPONENTS := games utils old projects
 COMPONENTS := $(REPO_COMPONENTS) talks writings
