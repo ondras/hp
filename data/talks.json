@@ -42,6 +42,8 @@
 }, {
 	"year":"2016",
 	"talks": [
+		{"url": "/slides/2016/trebic/", "name": "JavaScript: Základy, koncepty, DOM, cokoliv dalšího", "description": "Třebíč"},
+		{"url": "/slides/2016/webmail2016/", "name": "Webmail 2016", "description": "Seznam.cz"},
 		{"url": "/slides/2016/js-hard/", "name": "JavaScript: The Hard Parts", "description": "GDG ČVUT"},
 		{"url": "/slides/2016/ngParty/", "name": "Going functional with Vanilla JS", "description": "ngBigParty III"},
 		{"url": "/slides/2016/html-wa1/", "name": "Jazyk HTML", "description": "ČVUT ZWA/WA1"},
@@ -58,6 +60,7 @@
 }, {
 	"year":"2014",
 	"talks": [
+		{"url": "/slides/2014/webcomponents/", "name": "Web Components v0", "description": "Seznam.cz"},
 		{"url": "/slides/2014/pano-vse/", "name": "Panoramata na mapy.cz", "description": "VŠE Web Inkognito"},
 		{"url": "/slides/2014/http2/", "name": "HTTP/2", "description": ""},
 		{"url": "/slides/2014/mapyapi-fimuni/", "name": "Mapy API", "description": "FI MUNI"},
@@ -71,6 +74,7 @@
 	"year":"2013",
 	"talks": [
 		{"url": "/slides/2013/jsconfeu/", "name": "Poznatky z JSConf.eu 2013", "description": ""},
+		{"url": "/slides/2013/roguelike-ignite/", "name": "Obskurní žánr \"Roguelike\" her", "description": "devel.cz 2013² ignite talk"},
 		{"url": "/slides/2013/websocket/", "name": "WebSocket: Provařené i méně známé partie", "description": "devel.cz 2013²"},
 		{"url": "/slides/2013/html5-roguelike/", "name": "HTML5 a Roguelike hry", "description": ""},
 		{"url": "/slides/2013/balast/", "name": "JS knihovny a další balast v roce 2013", "description": ""},
@@ -85,30 +89,31 @@
 }, {
 	"year":"2012",
 	"talks": [
-		{"url": "slides/2012/html5-praxe/", "name": "HTML5 a CSS3 v praxi", "description": ""},
-		{"url": "slides/2012/dvcs/", "name": "Distribuované verzovací systémy a Git", "description": ""},
-		{"url": "slides/2012/seznamden/", "name": "Den s vývojáři – komplexní JS aplikace", "description": ""},
-		{"url": "slides/2012/just-spaceships/", "name": "Just Spaceships! – development notes", "description": ""},
-		{"url": "slides/2012/html5-muni/", "name": "HTML5", "description": "compressed into one talk"}
+		{"url": "/slides/2012/js-seznam-2/", "name": "Trendy a doporučení při psaní JS", "description": "Seznam.cz"},
+		{"url": "/slides/2012/html5-praxe/", "name": "HTML5 a CSS3 v praxi", "description": ""},
+		{"url": "/slides/2012/dvcs/", "name": "Distribuované verzovací systémy a Git", "description": ""},
+		{"url": "/slides/2012/seznamden/", "name": "Den s vývojáři – komplexní JS aplikace", "description": ""},
+		{"url": "/slides/2012/just-spaceships/", "name": "Just Spaceships! – development notes", "description": ""},
+		{"url": "/slides/2012/html5-muni/", "name": "HTML5", "description": "compressed into one talk"}
 	]
 }, {
 	"year":"2011",
 	"talks": [
-		{"url": "slides/2011/mff/", "name": "My job at Seznam.cz", "description": ""},
-		{"url": "slides/2011/mapyapi/", "name": "Mapy.cz API", "description": ""},
-		{"url": "slides/2011/html5-grafici/", "name": "HTML5 for Web Designers", "description": ""},
-		{"url": "slides/2011/html5/", "name": "HTML5", "description": "set of four talks"},
-		{"url": "slides/2011/ajax/", "name": "AJAX", "description": ""}
+		{"url": "/slides/2011/mff/", "name": "My job at Seznam.cz", "description": ""},
+		{"url": "/slides/2011/mapyapi/", "name": "Mapy.cz API", "description": ""},
+		{"url": "/slides/2011/html5-grafici/", "name": "HTML5 for Web Designers", "description": ""},
+		{"url": "/slides/2011/html5/", "name": "HTML5", "description": "set of four talks"},
+		{"url": "/slides/2011/ajax/", "name": "AJAX", "description": ""}
 	]
 }, {
 	"year":"2010",
 	"talks": [
-		{"url": "slides/2010/js-seznam/", "name": "JavaScript & Seznam.cz", "description": ""},
-		{"url": "slides/2010/js-advanced/", "name": "Advanced JavaScript topics", "description": ""}
+		{"url": "/slides/2010/js-seznam/", "name": "JavaScript & Seznam.cz", "description": ""},
+		{"url": "/slides/2010/js-advanced/", "name": "Advanced JavaScript topics", "description": ""}
 	]
 }, {
 	"year":"2008",
 	"talks": [
-		{"url": "slides/2008/js/", "name": "JavaScript introduction", "description": ""}
+		{"url": "/slides/2008/js/", "name": "JavaScript introduction", "description": ""}
 	]
 }]
