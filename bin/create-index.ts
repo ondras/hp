@@ -11,8 +11,8 @@ const data = {
 };
 const partials: Record<string, string> = {};
 
-["games", "utils", "old", "projects", "talks", "writings"].forEach(name => {
-	partials[name] = Deno.readTextFileSync(`build/${name}.partial`);
+["games", "utils", "old", "projects", "slides", "texty"].forEach(name => {
+	partials[name] = Deno.readTextFileSync(`.build/${name}.partial`);
 });
 
 const result = (mustache as any).render(template, data, partials);

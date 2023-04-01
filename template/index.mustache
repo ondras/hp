@@ -8,7 +8,7 @@
 		<meta name="viewport" content="width=device-width" />
 		<title>Ondřej Žára &ndash; Homepage</title>
 		<link rel="stylesheet" href="https://use.typekit.net/gpe0gkq.css" />
-		<link rel="stylesheet" href="/static/index.css" />
+		<link rel="stylesheet" href="index.css" />
 		<link rel="icon" href="https://emojimage.toad.cz/👨‍💻" />
 	</head>
 
@@ -17,7 +17,7 @@
 
 		<main>
 			<h2>About</h2>
-			<img src="../static/oz-small.jpg" alt="portrait" width="220" height="302" />
+			<img src="oz-small.jpg" alt="portrait" width="220" height="302" />
 			<p>
 				JavaScript developer, living in Prague, Czech Republic. Employed by <a href="https://www.seznam.cz/">Seznam.cz</a>.
 				My <a href="cv/">résumé</a> is available online, though I am currently not looking for a job. You can also see an
@@ -59,13 +59,13 @@
 		<details id="talks" open>
 			<summary><h2>Talks</h2></summary>
 			<p>List of recently given presentations, grouped by a year.</p>
-			{{>talks}}
+			{{>slides}}
 		</details>
 
 		<details id="writings" open>
 			<summary><h2>Writings</h2></summary>
 			<p>Collected blog-less works</p>
-			{{>writings}}
+			{{>texty}}
 		</details>
 
 		<details id="old" open>
@@ -87,7 +87,7 @@
 
 		<footer><p>This page was <a href="https://github.com/ondras/hp-generator">auto-generated</a> on {{generated}}.</p></footer>
 
-		<script type="text/javascript">
+		<script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-383250-1']);
 			_gaq.push(['_trackPageview']);
@@ -104,13 +104,13 @@
 		"@context": "https://schema.org",
 		"@type": "Person",
 		"name": "Ondřej Žára",
-		"image": "/img/oz.jpg",
+		"image": "oz.jpg",
 		"jobTitle": "JavaScript developer",
 		"address": "Prague, Czech Republic",
 		"affiliation": "https://www.seznam.cz/"
 		}
 		</script>
 
-		<script src="/static/index.js"></script>
+		<script src="index.js"></script>
 	</body>
 </html>

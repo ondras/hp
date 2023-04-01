@@ -1,41 +1,50 @@
 MAKEFLAGS += -r
-BIN := bin
-BUILD := build
-DATA := data
-TEMPLATE := template
+PROJECTS := texty slides
+PARTIALS := games utils old projects slides texty
 
-DENO := ~/deno/deno
-REPOS := $(DATA)/repos.json
-REPO_COMPONENTS := games utils old projects
-COMPONENTS := $(REPO_COMPONENTS) talks writings
+REPOS := .repos
+BUILD := .build
+HTML := root/index.html
 
-PARTIALS := $(COMPONENTS:%=$(BUILD)/%.partial)
+all: image
 
-# resulting html
-$(BUILD)/index.html: $(TEMPLATE)/index.mustache $(PARTIALS) | $(BUILD)
-	$(DENO) run  --allow-read $(BIN)/create-index.ts $< > $@
+image: $(PROJECTS) $(HTML)
+	echo docker build .
 
-# partial html
-$(BUILD)/%.partial: $(DATA)/%.json $(TEMPLATE)/%.mustache | $(BUILD)
-	cat $< | $(DENO) run --allow-read $(BIN)/create-partial.ts $(TEMPLATE)/$*.mustache > $@
+# main index html from partial html fragments
+$(HTML): template/index.mustache $(PARTIALS:%=$(BUILD)/%.partial)
+	deno run --allow-read bin/create-index.ts $< > $@
 
-# data sources
-$(DATA)/talks.json $(DATA)/writings.json:
-	# no-op, handcrafted
+# html fragments from per-repo json listings
+$(BUILD)/slides.partial $(BUILD)/texty.partial: $(BUILD)/%.partial: $(REPOS)/%/public.json template/%.mustache | $(BUILD)
+	cat $(REPOS)/$*/public.json | deno run --allow-read bin/create-partial.ts template/$*.mustache > $@
 
-$(DATA)/%.json: $(REPOS)
-	cat $< | $(DENO) run $(BIN)/split-repos.ts $* > $@
+# other html fragment from github repo listings
+$(BUILD)/%.partial: $(BUILD)/%.json template/%.mustache
+	cat $< | deno run --allow-read bin/create-partial.ts template/$*.mustache > $@
 
-$(REPOS):
-	env $(shell cat secrets.env | xargs) $(DENO) run --allow-net --allow-env $(BIN)/fetch-repos.ts > $@
+# individual repo listings
+$(BUILD)/%.json: $(REPOS)/all.json | $(BUILD)
+	cat $< | deno run bin/split-repos.ts $* > $@
+
+# big json with all repository data
+$(REPOS)/all.json: | $(REPOS)
+	env $(shell cat secrets.env | xargs) deno run --allow-net --allow-env bin/fetch-repos.ts > $@
+
+# repositories
+$(PROJECTS):
+	if [ -d $(REPOS)/$@/.git ]; then \
+        cd $(REPOS)/$@ ; \
+		git pull ; \
+    else \
+        git clone git@github.com:ondras/$@.git $(REPOS)/$@ ; \
+    fi
 
 # misc
-$(BUILD):
+$(BUILD) $(REPOS):
 	mkdir -p $@
 
 clean:
-	rm -rf $(BUILD) $(REPOS) $(REPO_COMPONENTS:%=$(DATA)/%.json)
+	rm -rf $(BUILD) $(REPOS) $(HTML)
 
-.PHONY: clean
-
-.DELETE_ON_ERROR:
+.PHONY: image $(PROJECTS)
