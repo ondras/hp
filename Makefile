@@ -6,12 +6,18 @@ REPOS := .repos
 BUILD := .build
 HTML := root/index.html
 
-all: image
+help:
+	@echo "usage: make html|repos|image|push"
 
 repos: $(PROJECTS)
 
 image: $(HTML)
 	docker buildx build . --platform=linux/amd64,linux/arm64 -t ondras/ondras.zarovi.cz:latest --push
+
+push: $(HTML)
+	docker buildx build . --platform=linux/amd64,linux/arm64 -t ondras/ondras.zarovi.cz:latest --push
+
+html: $(HTML)
 
 # main index html from partial html fragments
 $(HTML): template/index.mustache $(PARTIALS:%=$(BUILD)/%.partial)
