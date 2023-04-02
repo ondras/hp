@@ -1,5 +1,9 @@
-# hp-generator
-Homepage generator. Uses Deno and the GitHub API to create a customized repository listing.
+# hp
+Homepage generator. Workflow:
+
+  - Deno scripts and the GitHub API to fetch repo information
+  - clone multiple public+private repositories
+  - merge stuff into a Docker image
 
 ## Labels
 
