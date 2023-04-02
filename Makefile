@@ -1,5 +1,5 @@
 MAKEFLAGS += -r
-PROJECTS := texty slides
+PROJECTS := texty slides just-spaceships 7drl-2019 wild-west derivative-captcha oz.php qr wwwsqldesigner jsslides
 PARTIALS := games utils old projects slides texty
 
 REPOS := .repos
@@ -8,8 +8,10 @@ HTML := root/index.html
 
 all: image
 
-image: $(PROJECTS) $(HTML)
-	echo docker build .
+repos: $(PROJECTS)
+
+image: $(HTML)
+	docker buildx build . --platform=linux/amd64,linux/arm64 -t ondras/ondras.zarovi.cz:latest --push
 
 # main index html from partial html fragments
 $(HTML): template/index.mustache $(PARTIALS:%=$(BUILD)/%.partial)

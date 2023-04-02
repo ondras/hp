@@ -1,4 +1,4 @@
-FROM ondras/php:1.3
+FROM ondras/php:1.4
 
 WORKDIR /var/www/html
 
@@ -12,14 +12,15 @@ COPY .repos/texty/proktolog texty/proktolog
 COPY .repos/texty/romantika texty/romantika
 
 COPY .repos/slides slides
-RUN rm slides/public.json
+COPY .repos/jsslides/v3/slides slides/slides-v3
+RUN rm slides/public.json ; echo "Options +Indexes" > slides/.htaccess
 
-#COPY .repos/derivative-captcha derivative-captcha
-#COPY .repos/oz.php oz.php
-#COPY .repos/qr qr
-#COPY .repos/wwwsqldesigner sql/demo
+COPY sql sql
 
-#COPY .repos/just-spaceships games/just-spaceships
-#COPY .repos/7drl-2019 games/7drl-2019
-#COPY .repos/wild-west games/wild-west
-#COPY .repos/js-like games/js-like
+COPY .repos/derivative-captcha derivative-captcha
+COPY .repos/oz.php oz.php
+COPY .repos/qr qr
+
+COPY .repos/just-spaceships games/just-spaceships
+COPY .repos/7drl-2019 games/7drl-2019
+COPY .repos/wild-west games/wild-west
