@@ -12,7 +12,7 @@ help:
 repos: $(PROJECTS)
 
 image: $(HTML)
-	docker buildx build . --platform=linux/amd64,linux/arm64 -t ondras/ondras.zarovi.cz:latest --push
+	docker buildx build . --platform=linux/amd64,linux/arm64 -t ondras/ondras.zarovi.cz:latest
 
 push: $(HTML)
 	docker buildx build . --platform=linux/amd64,linux/arm64 -t ondras/ondras.zarovi.cz:latest --push
