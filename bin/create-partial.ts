@@ -1,5 +1,6 @@
 import { Repo } from "./repo.d.ts";
 import mustache from "https://unpkg.com/mustache@3.2.0/mustache.mjs";
+import { readAllSync } from "jsr:@std/io/read-all";
 
 
 const te = new TextEncoder();
@@ -29,7 +30,7 @@ function fixTopics(item: Repo) {
 if (Deno.args.length < 1) { throw new Error("Pass template name as an argument"); }
 
 const template = Deno.readTextFileSync(Deno.args[0]);
-const stdin = await Deno.readAll(Deno.stdin);
+const stdin = readAllSync(Deno.stdin);
 const data: Repo[] = JSON.parse(td.decode(stdin));
 data.sort(CMP);
 data.forEach(fixTopics);

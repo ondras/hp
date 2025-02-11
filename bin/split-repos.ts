@@ -1,4 +1,6 @@
 import { Repo } from "./repo.d.ts";
+import { readAllSync } from "jsr:@std/io/read-all";
+
 
 const te = new TextEncoder();
 const td = new TextDecoder();
@@ -17,7 +19,7 @@ function createFilter(mode: string) {
 	}
 }
 
-const stdin = await Deno.readAll(Deno.stdin);
+const stdin = readAllSync(Deno.stdin);
 const all: Repo[] = JSON.parse(td.decode(stdin));
 
 const mode = Deno.args[0];

@@ -21,7 +21,7 @@ html: $(HTML)
 
 # main index html from partial html fragments
 $(HTML): template/index.mustache $(PARTIALS:%=$(BUILD)/%.partial)
-	deno run --allow-read bin/create-index.ts $< > $@
+	deno run --allow-read --allow-import bin/create-index.ts $< > $@
 
 # html fragments from per-repo json listings
 $(BUILD)/slides.partial $(BUILD)/texty.partial: $(BUILD)/%.partial: $(REPOS)/%/public.json template/%.mustache | $(BUILD)
@@ -29,7 +29,7 @@ $(BUILD)/slides.partial $(BUILD)/texty.partial: $(BUILD)/%.partial: $(REPOS)/%/p
 
 # other html fragment from github repo listings
 $(BUILD)/%.partial: $(BUILD)/%.json template/%.mustache
-	cat $< | deno run --allow-read bin/create-partial.ts template/$*.mustache > $@
+	cat $< | deno run --allow-read --allow-import bin/create-partial.ts template/$*.mustache > $@
 
 # individual repo listings
 $(BUILD)/%.json: $(REPOS)/all.json | $(BUILD)
