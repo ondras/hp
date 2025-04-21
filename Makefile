@@ -25,7 +25,7 @@ $(HTML): template/index.mustache $(PARTIALS:%=$(BUILD)/%.partial)
 
 # html fragments from per-repo json listings
 $(BUILD)/slides.partial $(BUILD)/texty.partial: $(BUILD)/%.partial: $(REPOS)/%/public.json template/%.mustache | $(BUILD)
-	cat $(REPOS)/$*/public.json | deno run --allow-read bin/create-partial.ts template/$*.mustache > $@
+	cat $(REPOS)/$*/public.json | deno run --allow-read --allow-import bin/create-partial.ts template/$*.mustache > $@
 
 # other html fragment from github repo listings
 $(BUILD)/%.partial: $(BUILD)/%.json template/%.mustache
