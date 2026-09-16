@@ -3,6 +3,7 @@ FROM ondras/php:1.4
 WORKDIR /var/www/html
 
 COPY root .
+
 COPY .repos/texty/banda-bukanyru texty/banda-bukanyru
 COPY .repos/texty/compress texty/compress
 COPY .repos/texty/cv texty/cv
@@ -10,8 +11,6 @@ COPY .repos/texty/fotc texty/fotc
 COPY .repos/texty/korona texty/korona
 COPY .repos/texty/proktolog texty/proktolog
 COPY .repos/texty/romantika texty/romantika
-
-COPY sql sql
 
 COPY .repos/derivative-captcha derivative-captcha
 COPY .repos/oz.php oz.php
