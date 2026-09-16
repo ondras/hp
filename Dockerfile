@@ -11,10 +11,6 @@ COPY .repos/texty/korona texty/korona
 COPY .repos/texty/proktolog texty/proktolog
 COPY .repos/texty/romantika texty/romantika
 
-COPY .repos/slides slides
-COPY .repos/jsslides/v3/slides slides/slides-v3
-RUN rm slides/public.json ; echo "Options +Indexes" > slides/.htaccess
-
 COPY sql sql
 
 COPY .repos/derivative-captcha derivative-captcha
