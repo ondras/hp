@@ -1,4 +1,4 @@
-FROM ondras/php:1.4
+FROM ondras/php:1.8.5
 
 WORKDIR /var/www/html
 
